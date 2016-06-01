@@ -1,0 +1,10 @@
+name: Boomer_Pool
+account: mike-kuklinski
+server: shinyapps.io
+appId: 103523
+bundleId: 467907
+url: https://mike-kuklinski.shinyapps.io/Boomer_Pool/
+when: 1464754282.0657
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Data/Boomer's 2016 Masters Pool Participants.xlsx|Excel/2016/Masters - Needs.xlsx|Excel/2016/Masters.xlsx

@@ -1,0 +1,1270 @@
+"AdjVarIdx","ADJVarNames","NumberObs","PercentCC","PercentNA","Wt_Vote"
+"1","Adam Scott",67,0,0.88,0.125
+"2","Angel Cabrera",1,0,0.88,0.125
+"3","Bill Haas",1,0,0.88,0.125
+"4","Brandt Snedeker",5,0,0.88,0.125
+"5","Brooks Koepka",3,0,0.88,0.125
+"6","Bryson DeChambeau",2,0,0.88,0.125
+"7","Bubba Watson",58,0,0.88,0.125
+"8","Cameron Smith",1,0,0.88,0.125
+"9","Charl Schwartzel",7,0,0.88,0.125
+"10","Charley Hoffman",2,0,0.88,0.125
+"11","Chris Kirk",1,0,0.88,0.125
+"12","Danny Willett",4,0,0.88,0.125
+"13","Dustin Johnson",47,0,0.88,0.125
+"14","Ernie Els",1,0,0.88,0.125
+"15","Graeme McDowell",1,0,0.88,0.125
+"16","Henrik Stenson",29,0,0.88,0.125
+"17","Hideki Matsuyama",7,0,0.88,0.125
+"18","J.B. Holmes",1,0,0.88,0.125
+"19","Jason Day",104,0,0.88,0.125
+"20","Jason Dufner",2,0,0.88,0.125
+"21","Jimmy Walker",5,0,0.88,0.125
+"22","Jordan Spieth",89,0,0.88,0.125
+"23","Justin Rose",26,0,0.88,0.125
+"24","Justin Thomas",1,0,0.88,0.125
+"25","Keegan Bradley",1,0,0.88,0.125
+"26","Kevin Kisner",2,0,0.88,0.125
+"27","Louis Oosthuizen",19,0,0.88,0.125
+"28","Marc Leishman",2,0,0.88,0.125
+"29","Matt Kuchar",4,0,0.88,0.125
+"30","Patrick Reed",7,0,0.88,0.125
+"31","Paul Casey",2,0,0.88,0.125
+"32","Phil Mickelson",41,0,0.88,0.125
+"33","Rafael Cabrera Bello",4,0,0.88,0.125
+"34","Rickie Fowler",55,0,0.88,0.125
+"35","Rory McIlroy",70,0,0.88,0.125
+"36","Russell Knox",1,0,0.88,0.125
+"37","Sergio Garcia",4,0,0.88,0.125
+"38","Troy Merritt",1,0,0.88,0.125
+"39","Vaughn Taylor",1,0,0.88,0.125
+"40","Zach Johnson",6,0,0.88,0.125
+"1 3","Adam Scott Bill Haas",1,0,0.88,0.125
+"1 4","Adam Scott Brandt Snedeker",2,0,0.88,0.125
+"1 5","Adam Scott Brooks Koepka",1,0,0.88,0.125
+"1 7","Adam Scott Bubba Watson",25,0,0.88,0.125
+"1 9","Adam Scott Charl Schwartzel",5,0,0.88,0.125
+"1 12","Adam Scott Danny Willett",1,0,0.88,0.125
+"1 13","Adam Scott Dustin Johnson",18,0,0.88,0.125
+"1 14","Adam Scott Ernie Els",1,0,0.88,0.125
+"1 15","Adam Scott Graeme McDowell",1,0,0.88,0.125
+"1 16","Adam Scott Henrik Stenson",10,0,0.88,0.125
+"1 17","Adam Scott Hideki Matsuyama",3,0,0.88,0.125
+"1 19","Adam Scott Jason Day",52,0,0.88,0.125
+"1 21","Adam Scott Jimmy Walker",2,0,0.88,0.125
+"1 22","Adam Scott Jordan Spieth",43,0,0.88,0.125
+"1 23","Adam Scott Justin Rose",12,0,0.88,0.125
+"1 26","Adam Scott Kevin Kisner",1,0,0.88,0.125
+"1 27","Adam Scott Louis Oosthuizen",2,0,0.88,0.125
+"1 28","Adam Scott Marc Leishman",2,0,0.88,0.125
+"1 29","Adam Scott Matt Kuchar",2,0,0.88,0.125
+"1 30","Adam Scott Patrick Reed",5,0,0.88,0.125
+"1 32","Adam Scott Phil Mickelson",21,0,0.88,0.125
+"1 34","Adam Scott Rickie Fowler",24,0,0.88,0.125
+"1 35","Adam Scott Rory McIlroy",29,0,0.88,0.125
+"1 37","Adam Scott Sergio Garcia",1,0,0.88,0.125
+"1 39","Adam Scott Vaughn Taylor",1,0,0.88,0.125
+"1 40","Adam Scott Zach Johnson",3,0,0.88,0.125
+"1 3 19","Adam Scott Bill Haas Jason Day",1,0,0.88,0.125
+"1 3 22","Adam Scott Bill Haas Jordan Spieth",1,0,0.88,0.125
+"1 3 35","Adam Scott Bill Haas Rory McIlroy",1,0,0.88,0.125
+"1 3 19 22","Adam Scott Bill Haas Jason Day Jordan Spieth",1,0,0.88,0.125
+"1 3 19 35","Adam Scott Bill Haas Jason Day Rory McIlroy",1,0,0.88,0.125
+"1 3 19 22 35","Adam Scott Bill Haas Jason Day Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"1 3 22 35","Adam Scott Bill Haas Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"1 4 7","Adam Scott Brandt Snedeker Bubba Watson",1,0,0.88,0.125
+"1 4 19","Adam Scott Brandt Snedeker Jason Day",2,0,0.88,0.125
+"1 4 22","Adam Scott Brandt Snedeker Jordan Spieth",2,0,0.88,0.125
+"1 4 32","Adam Scott Brandt Snedeker Phil Mickelson",1,0,0.88,0.125
+"1 4 7 19","Adam Scott Brandt Snedeker Bubba Watson Jason Day",1,0,0.88,0.125
+"1 4 7 22","Adam Scott Brandt Snedeker Bubba Watson Jordan Spieth",1,0,0.88,0.125
+"1 4 7 19 22","Adam Scott Brandt Snedeker Bubba Watson Jason Day Jordan Spieth",1,0,0.88,0.125
+"1 4 19 22","Adam Scott Brandt Snedeker Jason Day Jordan Spieth",2,0,0.88,0.125
+"1 4 19 32","Adam Scott Brandt Snedeker Jason Day Phil Mickelson",1,0,0.88,0.125
+"1 4 19 22 32","Adam Scott Brandt Snedeker Jason Day Jordan Spieth Phil Mickelson",1,0,0.88,0.125
+"1 4 22 32","Adam Scott Brandt Snedeker Jordan Spieth Phil Mickelson",1,0,0.88,0.125
+"1 5 7","Adam Scott Brooks Koepka Bubba Watson",1,0,0.88,0.125
+"1 5 12","Adam Scott Brooks Koepka Danny Willett",1,0,0.88,0.125
+"1 5 19","Adam Scott Brooks Koepka Jason Day",1,0,0.88,0.125
+"1 5 7 12","Adam Scott Brooks Koepka Bubba Watson Danny Willett",1,0,0.88,0.125
+"1 5 7 19","Adam Scott Brooks Koepka Bubba Watson Jason Day",1,0,0.88,0.125
+"1 5 7 12 19","Adam Scott Brooks Koepka Bubba Watson Danny Willett Jason Day",1,0,0.88,0.125
+"1 5 12 19","Adam Scott Brooks Koepka Danny Willett Jason Day",1,0,0.88,0.125
+"1 7 9","Adam Scott Bubba Watson Charl Schwartzel",1,0,0.88,0.125
+"1 7 12","Adam Scott Bubba Watson Danny Willett",1,0,0.88,0.125
+"1 7 13","Adam Scott Bubba Watson Dustin Johnson",2,0,0.88,0.125
+"1 7 16","Adam Scott Bubba Watson Henrik Stenson",4,0,0.88,0.125
+"1 7 17","Adam Scott Bubba Watson Hideki Matsuyama",2,0,0.88,0.125
+"1 7 19","Adam Scott Bubba Watson Jason Day",21,0,0.88,0.125
+"1 7 21","Adam Scott Bubba Watson Jimmy Walker",2,0,0.88,0.125
+"1 7 22","Adam Scott Bubba Watson Jordan Spieth",17,0,0.88,0.125
+"1 7 23","Adam Scott Bubba Watson Justin Rose",2,0,0.88,0.125
+"1 7 28","Adam Scott Bubba Watson Marc Leishman",1,0,0.88,0.125
+"1 7 32","Adam Scott Bubba Watson Phil Mickelson",6,0,0.88,0.125
+"1 7 34","Adam Scott Bubba Watson Rickie Fowler",6,0,0.88,0.125
+"1 7 35","Adam Scott Bubba Watson Rory McIlroy",8,0,0.88,0.125
+"1 7 9 16","Adam Scott Bubba Watson Charl Schwartzel Henrik Stenson",1,0,0.88,0.125
+"1 7 9 34","Adam Scott Bubba Watson Charl Schwartzel Rickie Fowler",1,0,0.88,0.125
+"1 7 9 16 34","Adam Scott Bubba Watson Charl Schwartzel Henrik Stenson Rickie Fowler",1,0,0.88,0.125
+"1 7 12 19","Adam Scott Bubba Watson Danny Willett Jason Day",1,0,0.88,0.125
+"1 7 13 19","Adam Scott Bubba Watson Dustin Johnson Jason Day",1,0,0.88,0.125
+"1 7 13 21","Adam Scott Bubba Watson Dustin Johnson Jimmy Walker",1,0,0.88,0.125
+"1 7 13 22","Adam Scott Bubba Watson Dustin Johnson Jordan Spieth",2,0,0.88,0.125
+"1 7 13 19 22","Adam Scott Bubba Watson Dustin Johnson Jason Day Jordan Spieth",1,0,0.88,0.125
+"1 7 13 21 22","Adam Scott Bubba Watson Dustin Johnson Jimmy Walker Jordan Spieth",1,0,0.88,0.125
+"1 7 16 19","Adam Scott Bubba Watson Henrik Stenson Jason Day",2,0,0.88,0.125
+"1 7 16 22","Adam Scott Bubba Watson Henrik Stenson Jordan Spieth",2,0,0.88,0.125
+"1 7 16 32","Adam Scott Bubba Watson Henrik Stenson Phil Mickelson",1,0,0.88,0.125
+"1 7 16 34","Adam Scott Bubba Watson Henrik Stenson Rickie Fowler",1,0,0.88,0.125
+"1 7 16 35","Adam Scott Bubba Watson Henrik Stenson Rory McIlroy",1,0,0.88,0.125
+"1 7 16 19 22","Adam Scott Bubba Watson Henrik Stenson Jason Day Jordan Spieth",1,0,0.88,0.125
+"1 7 16 19 35","Adam Scott Bubba Watson Henrik Stenson Jason Day Rory McIlroy",1,0,0.88,0.125
+"1 7 16 22 32","Adam Scott Bubba Watson Henrik Stenson Jordan Spieth Phil Mickelson",1,0,0.88,0.125
+"1 7 17 19","Adam Scott Bubba Watson Hideki Matsuyama Jason Day",1,0,0.88,0.125
+"1 7 17 32","Adam Scott Bubba Watson Hideki Matsuyama Phil Mickelson",1,0,0.88,0.125
+"1 7 17 34","Adam Scott Bubba Watson Hideki Matsuyama Rickie Fowler",2,0,0.88,0.125
+"1 7 17 19 34","Adam Scott Bubba Watson Hideki Matsuyama Jason Day Rickie Fowler",1,0,0.88,0.125
+"1 7 17 32 34","Adam Scott Bubba Watson Hideki Matsuyama Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"1 7 19 21","Adam Scott Bubba Watson Jason Day Jimmy Walker",1,0,0.88,0.125
+"1 7 19 22","Adam Scott Bubba Watson Jason Day Jordan Spieth",15,0,0.88,0.125
+"1 7 19 23","Adam Scott Bubba Watson Jason Day Justin Rose",2,0,0.88,0.125
+"1 7 19 28","Adam Scott Bubba Watson Jason Day Marc Leishman",1,0,0.88,0.125
+"1 7 19 32","Adam Scott Bubba Watson Jason Day Phil Mickelson",4,0,0.88,0.125
+"1 7 19 34","Adam Scott Bubba Watson Jason Day Rickie Fowler",4,0,0.88,0.125
+"1 7 19 35","Adam Scott Bubba Watson Jason Day Rory McIlroy",8,0,0.88,0.125
+"1 7 19 21 22","Adam Scott Bubba Watson Jason Day Jimmy Walker Jordan Spieth",1,0,0.88,0.125
+"1 7 19 22 23","Adam Scott Bubba Watson Jason Day Jordan Spieth Justin Rose",1,0,0.88,0.125
+"1 7 19 22 28","Adam Scott Bubba Watson Jason Day Jordan Spieth Marc Leishman",1,0,0.88,0.125
+"1 7 19 22 32","Adam Scott Bubba Watson Jason Day Jordan Spieth Phil Mickelson",2,0,0.88,0.125
+"1 7 19 22 35","Adam Scott Bubba Watson Jason Day Jordan Spieth Rory McIlroy",7,0,0.88,0.125
+"1 7 19 23 34","Adam Scott Bubba Watson Jason Day Justin Rose Rickie Fowler",1,0,0.88,0.125
+"1 7 19 32 34","Adam Scott Bubba Watson Jason Day Phil Mickelson Rickie Fowler",2,0,0.88,0.125
+"1 7 21 22","Adam Scott Bubba Watson Jimmy Walker Jordan Spieth",2,0,0.88,0.125
+"1 7 22 23","Adam Scott Bubba Watson Jordan Spieth Justin Rose",1,0,0.88,0.125
+"1 7 22 28","Adam Scott Bubba Watson Jordan Spieth Marc Leishman",1,0,0.88,0.125
+"1 7 22 32","Adam Scott Bubba Watson Jordan Spieth Phil Mickelson",3,0,0.88,0.125
+"1 7 22 35","Adam Scott Bubba Watson Jordan Spieth Rory McIlroy",7,0,0.88,0.125
+"1 7 23 34","Adam Scott Bubba Watson Justin Rose Rickie Fowler",1,0,0.88,0.125
+"1 7 32 34","Adam Scott Bubba Watson Phil Mickelson Rickie Fowler",3,0,0.88,0.125
+"1 9 13","Adam Scott Charl Schwartzel Dustin Johnson",1,0,0.88,0.125
+"1 9 16","Adam Scott Charl Schwartzel Henrik Stenson",2,0,0.88,0.125
+"1 9 19","Adam Scott Charl Schwartzel Jason Day",4,0,0.88,0.125
+"1 9 22","Adam Scott Charl Schwartzel Jordan Spieth",4,0,0.88,0.125
+"1 9 32","Adam Scott Charl Schwartzel Phil Mickelson",2,0,0.88,0.125
+"1 9 34","Adam Scott Charl Schwartzel Rickie Fowler",1,0,0.88,0.125
+"1 9 13 19","Adam Scott Charl Schwartzel Dustin Johnson Jason Day",1,0,0.88,0.125
+"1 9 13 22","Adam Scott Charl Schwartzel Dustin Johnson Jordan Spieth",1,0,0.88,0.125
+"1 9 13 19 22","Adam Scott Charl Schwartzel Dustin Johnson Jason Day Jordan Spieth",1,0,0.88,0.125
+"1 9 16 19","Adam Scott Charl Schwartzel Henrik Stenson Jason Day",1,0,0.88,0.125
+"1 9 16 22","Adam Scott Charl Schwartzel Henrik Stenson Jordan Spieth",1,0,0.88,0.125
+"1 9 16 34","Adam Scott Charl Schwartzel Henrik Stenson Rickie Fowler",1,0,0.88,0.125
+"1 9 16 19 22","Adam Scott Charl Schwartzel Henrik Stenson Jason Day Jordan Spieth",1,0,0.88,0.125
+"1 9 19 22","Adam Scott Charl Schwartzel Jason Day Jordan Spieth",4,0,0.88,0.125
+"1 9 19 32","Adam Scott Charl Schwartzel Jason Day Phil Mickelson",2,0,0.88,0.125
+"1 9 19 22 32","Adam Scott Charl Schwartzel Jason Day Jordan Spieth Phil Mickelson",2,0,0.88,0.125
+"1 9 22 32","Adam Scott Charl Schwartzel Jordan Spieth Phil Mickelson",2,0,0.88,0.125
+"1 12 19","Adam Scott Danny Willett Jason Day",1,0,0.88,0.125
+"1 13 16","Adam Scott Dustin Johnson Henrik Stenson",2,0,0.88,0.125
+"1 13 17","Adam Scott Dustin Johnson Hideki Matsuyama",1,0,0.88,0.125
+"1 13 19","Adam Scott Dustin Johnson Jason Day",11,0,0.88,0.125
+"1 13 21","Adam Scott Dustin Johnson Jimmy Walker",1,0,0.88,0.125
+"1 13 22","Adam Scott Dustin Johnson Jordan Spieth",11,0,0.88,0.125
+"1 13 23","Adam Scott Dustin Johnson Justin Rose",4,0,0.88,0.125
+"1 13 30","Adam Scott Dustin Johnson Patrick Reed",2,0,0.88,0.125
+"1 13 32","Adam Scott Dustin Johnson Phil Mickelson",2,0,0.88,0.125
+"1 13 34","Adam Scott Dustin Johnson Rickie Fowler",9,0,0.88,0.125
+"1 13 35","Adam Scott Dustin Johnson Rory McIlroy",7,0,0.88,0.125
+"1 13 40","Adam Scott Dustin Johnson Zach Johnson",1,0,0.88,0.125
+"1 13 16 19","Adam Scott Dustin Johnson Henrik Stenson Jason Day",1,0,0.88,0.125
+"1 13 16 23","Adam Scott Dustin Johnson Henrik Stenson Justin Rose",1,0,0.88,0.125
+"1 13 16 34","Adam Scott Dustin Johnson Henrik Stenson Rickie Fowler",2,0,0.88,0.125
+"1 13 16 19 34","Adam Scott Dustin Johnson Henrik Stenson Jason Day Rickie Fowler",1,0,0.88,0.125
+"1 13 16 23 34","Adam Scott Dustin Johnson Henrik Stenson Justin Rose Rickie Fowler",1,0,0.88,0.125
+"1 13 17 19","Adam Scott Dustin Johnson Hideki Matsuyama Jason Day",1,0,0.88,0.125
+"1 13 17 40","Adam Scott Dustin Johnson Hideki Matsuyama Zach Johnson",1,0,0.88,0.125
+"1 13 17 19 40","Adam Scott Dustin Johnson Hideki Matsuyama Jason Day Zach Johnson",1,0,0.88,0.125
+"1 13 19 22","Adam Scott Dustin Johnson Jason Day Jordan Spieth",7,0,0.88,0.125
+"1 13 19 23","Adam Scott Dustin Johnson Jason Day Justin Rose",1,0,0.88,0.125
+"1 13 19 32","Adam Scott Dustin Johnson Jason Day Phil Mickelson",2,0,0.88,0.125
+"1 13 19 34","Adam Scott Dustin Johnson Jason Day Rickie Fowler",3,0,0.88,0.125
+"1 13 19 35","Adam Scott Dustin Johnson Jason Day Rory McIlroy",4,0,0.88,0.125
+"1 13 19 40","Adam Scott Dustin Johnson Jason Day Zach Johnson",1,0,0.88,0.125
+"1 13 19 22 23","Adam Scott Dustin Johnson Jason Day Jordan Spieth Justin Rose",1,0,0.88,0.125
+"1 13 19 22 32","Adam Scott Dustin Johnson Jason Day Jordan Spieth Phil Mickelson",1,0,0.88,0.125
+"1 13 19 22 35","Adam Scott Dustin Johnson Jason Day Jordan Spieth Rory McIlroy",3,0,0.88,0.125
+"1 13 19 32 34","Adam Scott Dustin Johnson Jason Day Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"1 13 19 34 35","Adam Scott Dustin Johnson Jason Day Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"1 13 21 22","Adam Scott Dustin Johnson Jimmy Walker Jordan Spieth",1,0,0.88,0.125
+"1 13 22 23","Adam Scott Dustin Johnson Jordan Spieth Justin Rose",1,0,0.88,0.125
+"1 13 22 30","Adam Scott Dustin Johnson Jordan Spieth Patrick Reed",2,0,0.88,0.125
+"1 13 22 32","Adam Scott Dustin Johnson Jordan Spieth Phil Mickelson",1,0,0.88,0.125
+"1 13 22 34","Adam Scott Dustin Johnson Jordan Spieth Rickie Fowler",3,0,0.88,0.125
+"1 13 22 35","Adam Scott Dustin Johnson Jordan Spieth Rory McIlroy",4,0,0.88,0.125
+"1 13 22 30 34","Adam Scott Dustin Johnson Jordan Spieth Patrick Reed Rickie Fowler",2,0,0.88,0.125
+"1 13 22 34 35","Adam Scott Dustin Johnson Jordan Spieth Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"1 13 23 34","Adam Scott Dustin Johnson Justin Rose Rickie Fowler",3,0,0.88,0.125
+"1 13 23 35","Adam Scott Dustin Johnson Justin Rose Rory McIlroy",2,0,0.88,0.125
+"1 13 23 34 35","Adam Scott Dustin Johnson Justin Rose Rickie Fowler Rory McIlroy",2,0,0.88,0.125
+"1 13 30 34","Adam Scott Dustin Johnson Patrick Reed Rickie Fowler",2,0,0.88,0.125
+"1 13 32 34","Adam Scott Dustin Johnson Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"1 13 34 35","Adam Scott Dustin Johnson Rickie Fowler Rory McIlroy",4,0,0.88,0.125
+"1 14 16","Adam Scott Ernie Els Henrik Stenson",1,0,0.88,0.125
+"1 14 27","Adam Scott Ernie Els Louis Oosthuizen",1,0,0.88,0.125
+"1 14 35","Adam Scott Ernie Els Rory McIlroy",1,0,0.88,0.125
+"1 14 16 27","Adam Scott Ernie Els Henrik Stenson Louis Oosthuizen",1,0,0.88,0.125
+"1 14 16 35","Adam Scott Ernie Els Henrik Stenson Rory McIlroy",1,0,0.88,0.125
+"1 14 16 27 35","Adam Scott Ernie Els Henrik Stenson Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"1 14 27 35","Adam Scott Ernie Els Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"1 15 23","Adam Scott Graeme McDowell Justin Rose",1,0,0.88,0.125
+"1 15 26","Adam Scott Graeme McDowell Kevin Kisner",1,0,0.88,0.125
+"1 15 39","Adam Scott Graeme McDowell Vaughn Taylor",1,0,0.88,0.125
+"1 15 23 26","Adam Scott Graeme McDowell Justin Rose Kevin Kisner",1,0,0.88,0.125
+"1 15 23 39","Adam Scott Graeme McDowell Justin Rose Vaughn Taylor",1,0,0.88,0.125
+"1 15 23 26 39","Adam Scott Graeme McDowell Justin Rose Kevin Kisner Vaughn Taylor",1,0,0.88,0.125
+"1 15 26 39","Adam Scott Graeme McDowell Kevin Kisner Vaughn Taylor",1,0,0.88,0.125
+"1 16 19","Adam Scott Henrik Stenson Jason Day",6,0,0.88,0.125
+"1 16 22","Adam Scott Henrik Stenson Jordan Spieth",5,0,0.88,0.125
+"1 16 23","Adam Scott Henrik Stenson Justin Rose",1,0,0.88,0.125
+"1 16 27","Adam Scott Henrik Stenson Louis Oosthuizen",1,0,0.88,0.125
+"1 16 32","Adam Scott Henrik Stenson Phil Mickelson",1,0,0.88,0.125
+"1 16 34","Adam Scott Henrik Stenson Rickie Fowler",5,0,0.88,0.125
+"1 16 35","Adam Scott Henrik Stenson Rory McIlroy",2,0,0.88,0.125
+"1 16 19 22","Adam Scott Henrik Stenson Jason Day Jordan Spieth",4,0,0.88,0.125
+"1 16 19 34","Adam Scott Henrik Stenson Jason Day Rickie Fowler",3,0,0.88,0.125
+"1 16 19 35","Adam Scott Henrik Stenson Jason Day Rory McIlroy",1,0,0.88,0.125
+"1 16 19 22 34","Adam Scott Henrik Stenson Jason Day Jordan Spieth Rickie Fowler",2,0,0.88,0.125
+"1 16 22 32","Adam Scott Henrik Stenson Jordan Spieth Phil Mickelson",1,0,0.88,0.125
+"1 16 22 34","Adam Scott Henrik Stenson Jordan Spieth Rickie Fowler",2,0,0.88,0.125
+"1 16 23 34","Adam Scott Henrik Stenson Justin Rose Rickie Fowler",1,0,0.88,0.125
+"1 16 27 35","Adam Scott Henrik Stenson Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"1 17 19","Adam Scott Hideki Matsuyama Jason Day",2,0,0.88,0.125
+"1 17 32","Adam Scott Hideki Matsuyama Phil Mickelson",1,0,0.88,0.125
+"1 17 34","Adam Scott Hideki Matsuyama Rickie Fowler",2,0,0.88,0.125
+"1 17 40","Adam Scott Hideki Matsuyama Zach Johnson",1,0,0.88,0.125
+"1 17 19 34","Adam Scott Hideki Matsuyama Jason Day Rickie Fowler",1,0,0.88,0.125
+"1 17 19 40","Adam Scott Hideki Matsuyama Jason Day Zach Johnson",1,0,0.88,0.125
+"1 17 32 34","Adam Scott Hideki Matsuyama Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"1 19 21","Adam Scott Jason Day Jimmy Walker",1,0,0.88,0.125
+"1 19 22","Adam Scott Jason Day Jordan Spieth",36,0,0.88,0.125
+"1 19 23","Adam Scott Jason Day Justin Rose",7,0,0.88,0.125
+"1 19 27","Adam Scott Jason Day Louis Oosthuizen",1,0,0.88,0.125
+"1 19 28","Adam Scott Jason Day Marc Leishman",2,0,0.88,0.125
+"1 19 30","Adam Scott Jason Day Patrick Reed",2,0,0.88,0.125
+"1 19 32","Adam Scott Jason Day Phil Mickelson",17,0,0.88,0.125
+"1 19 34","Adam Scott Jason Day Rickie Fowler",14,0,0.88,0.125
+"1 19 35","Adam Scott Jason Day Rory McIlroy",23,0,0.88,0.125
+"1 19 37","Adam Scott Jason Day Sergio Garcia",1,0,0.88,0.125
+"1 19 40","Adam Scott Jason Day Zach Johnson",3,0,0.88,0.125
+"1 19 21 22","Adam Scott Jason Day Jimmy Walker Jordan Spieth",1,0,0.88,0.125
+"1 19 22 23","Adam Scott Jason Day Jordan Spieth Justin Rose",4,0,0.88,0.125
+"1 19 22 28","Adam Scott Jason Day Jordan Spieth Marc Leishman",1,0,0.88,0.125
+"1 19 22 30","Adam Scott Jason Day Jordan Spieth Patrick Reed",1,0,0.88,0.125
+"1 19 22 32","Adam Scott Jason Day Jordan Spieth Phil Mickelson",10,0,0.88,0.125
+"1 19 22 34","Adam Scott Jason Day Jordan Spieth Rickie Fowler",4,0,0.88,0.125
+"1 19 22 35","Adam Scott Jason Day Jordan Spieth Rory McIlroy",15,0,0.88,0.125
+"1 19 22 37","Adam Scott Jason Day Jordan Spieth Sergio Garcia",1,0,0.88,0.125
+"1 19 22 40","Adam Scott Jason Day Jordan Spieth Zach Johnson",2,0,0.88,0.125
+"1 19 22 23 30","Adam Scott Jason Day Jordan Spieth Justin Rose Patrick Reed",1,0,0.88,0.125
+"1 19 22 23 37","Adam Scott Jason Day Jordan Spieth Justin Rose Sergio Garcia",1,0,0.88,0.125
+"1 19 22 32 34","Adam Scott Jason Day Jordan Spieth Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"1 19 22 32 35","Adam Scott Jason Day Jordan Spieth Phil Mickelson Rory McIlroy",2,0,0.88,0.125
+"1 19 22 32 40","Adam Scott Jason Day Jordan Spieth Phil Mickelson Zach Johnson",1,0,0.88,0.125
+"1 19 22 34 35","Adam Scott Jason Day Jordan Spieth Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"1 19 22 35 40","Adam Scott Jason Day Jordan Spieth Rory McIlroy Zach Johnson",1,0,0.88,0.125
+"1 19 23 27","Adam Scott Jason Day Justin Rose Louis Oosthuizen",1,0,0.88,0.125
+"1 19 23 30","Adam Scott Jason Day Justin Rose Patrick Reed",1,0,0.88,0.125
+"1 19 23 32","Adam Scott Jason Day Justin Rose Phil Mickelson",1,0,0.88,0.125
+"1 19 23 34","Adam Scott Jason Day Justin Rose Rickie Fowler",1,0,0.88,0.125
+"1 19 23 35","Adam Scott Jason Day Justin Rose Rory McIlroy",2,0,0.88,0.125
+"1 19 23 37","Adam Scott Jason Day Justin Rose Sergio Garcia",1,0,0.88,0.125
+"1 19 23 27 35","Adam Scott Jason Day Justin Rose Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"1 19 23 32 35","Adam Scott Jason Day Justin Rose Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"1 19 27 35","Adam Scott Jason Day Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"1 19 28 32","Adam Scott Jason Day Marc Leishman Phil Mickelson",1,0,0.88,0.125
+"1 19 28 35","Adam Scott Jason Day Marc Leishman Rory McIlroy",1,0,0.88,0.125
+"1 19 28 32 35","Adam Scott Jason Day Marc Leishman Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"1 19 30 34","Adam Scott Jason Day Patrick Reed Rickie Fowler",1,0,0.88,0.125
+"1 19 30 35","Adam Scott Jason Day Patrick Reed Rory McIlroy",1,0,0.88,0.125
+"1 19 30 34 35","Adam Scott Jason Day Patrick Reed Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"1 19 32 34","Adam Scott Jason Day Phil Mickelson Rickie Fowler",6,0,0.88,0.125
+"1 19 32 35","Adam Scott Jason Day Phil Mickelson Rory McIlroy",6,0,0.88,0.125
+"1 19 32 40","Adam Scott Jason Day Phil Mickelson Zach Johnson",1,0,0.88,0.125
+"1 19 32 34 35","Adam Scott Jason Day Phil Mickelson Rickie Fowler Rory McIlroy",2,0,0.88,0.125
+"1 19 34 35","Adam Scott Jason Day Rickie Fowler Rory McIlroy",5,0,0.88,0.125
+"1 19 35 40","Adam Scott Jason Day Rory McIlroy Zach Johnson",1,0,0.88,0.125
+"1 21 22","Adam Scott Jimmy Walker Jordan Spieth",2,0,0.88,0.125
+"1 22 23","Adam Scott Jordan Spieth Justin Rose",4,0,0.88,0.125
+"1 22 28","Adam Scott Jordan Spieth Marc Leishman",1,0,0.88,0.125
+"1 22 29","Adam Scott Jordan Spieth Matt Kuchar",1,0,0.88,0.125
+"1 22 30","Adam Scott Jordan Spieth Patrick Reed",4,0,0.88,0.125
+"1 22 32","Adam Scott Jordan Spieth Phil Mickelson",12,0,0.88,0.125
+"1 22 34","Adam Scott Jordan Spieth Rickie Fowler",8,0,0.88,0.125
+"1 22 35","Adam Scott Jordan Spieth Rory McIlroy",18,0,0.88,0.125
+"1 22 37","Adam Scott Jordan Spieth Sergio Garcia",1,0,0.88,0.125
+"1 22 40","Adam Scott Jordan Spieth Zach Johnson",2,0,0.88,0.125
+"1 22 23 30","Adam Scott Jordan Spieth Justin Rose Patrick Reed",1,0,0.88,0.125
+"1 22 23 37","Adam Scott Jordan Spieth Justin Rose Sergio Garcia",1,0,0.88,0.125
+"1 22 29 32","Adam Scott Jordan Spieth Matt Kuchar Phil Mickelson",1,0,0.88,0.125
+"1 22 29 35","Adam Scott Jordan Spieth Matt Kuchar Rory McIlroy",1,0,0.88,0.125
+"1 22 29 32 35","Adam Scott Jordan Spieth Matt Kuchar Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"1 22 30 34","Adam Scott Jordan Spieth Patrick Reed Rickie Fowler",3,0,0.88,0.125
+"1 22 30 35","Adam Scott Jordan Spieth Patrick Reed Rory McIlroy",1,0,0.88,0.125
+"1 22 30 34 35","Adam Scott Jordan Spieth Patrick Reed Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"1 22 32 34","Adam Scott Jordan Spieth Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"1 22 32 35","Adam Scott Jordan Spieth Phil Mickelson Rory McIlroy",3,0,0.88,0.125
+"1 22 32 40","Adam Scott Jordan Spieth Phil Mickelson Zach Johnson",1,0,0.88,0.125
+"1 22 34 35","Adam Scott Jordan Spieth Rickie Fowler Rory McIlroy",3,0,0.88,0.125
+"1 22 35 40","Adam Scott Jordan Spieth Rory McIlroy Zach Johnson",1,0,0.88,0.125
+"1 23 26","Adam Scott Justin Rose Kevin Kisner",1,0,0.88,0.125
+"1 23 27","Adam Scott Justin Rose Louis Oosthuizen",1,0,0.88,0.125
+"1 23 29","Adam Scott Justin Rose Matt Kuchar",1,0,0.88,0.125
+"1 23 30","Adam Scott Justin Rose Patrick Reed",1,0,0.88,0.125
+"1 23 32","Adam Scott Justin Rose Phil Mickelson",2,0,0.88,0.125
+"1 23 34","Adam Scott Justin Rose Rickie Fowler",5,0,0.88,0.125
+"1 23 35","Adam Scott Justin Rose Rory McIlroy",4,0,0.88,0.125
+"1 23 37","Adam Scott Justin Rose Sergio Garcia",1,0,0.88,0.125
+"1 23 39","Adam Scott Justin Rose Vaughn Taylor",1,0,0.88,0.125
+"1 23 26 39","Adam Scott Justin Rose Kevin Kisner Vaughn Taylor",1,0,0.88,0.125
+"1 23 27 35","Adam Scott Justin Rose Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"1 23 29 32","Adam Scott Justin Rose Matt Kuchar Phil Mickelson",1,0,0.88,0.125
+"1 23 29 34","Adam Scott Justin Rose Matt Kuchar Rickie Fowler",1,0,0.88,0.125
+"1 23 29 32 34","Adam Scott Justin Rose Matt Kuchar Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"1 23 32 34","Adam Scott Justin Rose Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"1 23 32 35","Adam Scott Justin Rose Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"1 23 34 35","Adam Scott Justin Rose Rickie Fowler Rory McIlroy",2,0,0.88,0.125
+"1 26 39","Adam Scott Kevin Kisner Vaughn Taylor",1,0,0.88,0.125
+"1 27 35","Adam Scott Louis Oosthuizen Rory McIlroy",2,0,0.88,0.125
+"1 28 32","Adam Scott Marc Leishman Phil Mickelson",1,0,0.88,0.125
+"1 28 35","Adam Scott Marc Leishman Rory McIlroy",1,0,0.88,0.125
+"1 28 32 35","Adam Scott Marc Leishman Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"1 29 32","Adam Scott Matt Kuchar Phil Mickelson",2,0,0.88,0.125
+"1 29 34","Adam Scott Matt Kuchar Rickie Fowler",1,0,0.88,0.125
+"1 29 35","Adam Scott Matt Kuchar Rory McIlroy",1,0,0.88,0.125
+"1 29 32 34","Adam Scott Matt Kuchar Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"1 29 32 35","Adam Scott Matt Kuchar Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"1 30 34","Adam Scott Patrick Reed Rickie Fowler",4,0,0.88,0.125
+"1 30 35","Adam Scott Patrick Reed Rory McIlroy",2,0,0.88,0.125
+"1 30 34 35","Adam Scott Patrick Reed Rickie Fowler Rory McIlroy",2,0,0.88,0.125
+"1 32 34","Adam Scott Phil Mickelson Rickie Fowler",8,0,0.88,0.125
+"1 32 35","Adam Scott Phil Mickelson Rory McIlroy",7,0,0.88,0.125
+"1 32 40","Adam Scott Phil Mickelson Zach Johnson",1,0,0.88,0.125
+"1 32 34 35","Adam Scott Phil Mickelson Rickie Fowler Rory McIlroy",2,0,0.88,0.125
+"1 34 35","Adam Scott Rickie Fowler Rory McIlroy",9,0,0.88,0.125
+"1 35 40","Adam Scott Rory McIlroy Zach Johnson",1,0,0.88,0.125
+"2 5","Angel Cabrera Brooks Koepka",1,0,0.88,0.125
+"2 7","Angel Cabrera Bubba Watson",1,0,0.88,0.125
+"2 19","Angel Cabrera Jason Day",1,0,0.88,0.125
+"2 35","Angel Cabrera Rory McIlroy",1,0,0.88,0.125
+"2 5 7","Angel Cabrera Brooks Koepka Bubba Watson",1,0,0.88,0.125
+"2 5 19","Angel Cabrera Brooks Koepka Jason Day",1,0,0.88,0.125
+"2 5 35","Angel Cabrera Brooks Koepka Rory McIlroy",1,0,0.88,0.125
+"2 5 7 19","Angel Cabrera Brooks Koepka Bubba Watson Jason Day",1,0,0.88,0.125
+"2 5 7 35","Angel Cabrera Brooks Koepka Bubba Watson Rory McIlroy",1,0,0.88,0.125
+"2 5 7 19 35","Angel Cabrera Brooks Koepka Bubba Watson Jason Day Rory McIlroy",1,0,0.88,0.125
+"2 5 19 35","Angel Cabrera Brooks Koepka Jason Day Rory McIlroy",1,0,0.88,0.125
+"2 7 19","Angel Cabrera Bubba Watson Jason Day",1,0,0.88,0.125
+"2 7 35","Angel Cabrera Bubba Watson Rory McIlroy",1,0,0.88,0.125
+"2 7 19 35","Angel Cabrera Bubba Watson Jason Day Rory McIlroy",1,0,0.88,0.125
+"2 19 35","Angel Cabrera Jason Day Rory McIlroy",1,0,0.88,0.125
+"3 19","Bill Haas Jason Day",1,0,0.88,0.125
+"3 22","Bill Haas Jordan Spieth",1,0,0.88,0.125
+"3 35","Bill Haas Rory McIlroy",1,0,0.88,0.125
+"3 19 22","Bill Haas Jason Day Jordan Spieth",1,0,0.88,0.125
+"3 19 35","Bill Haas Jason Day Rory McIlroy",1,0,0.88,0.125
+"3 19 22 35","Bill Haas Jason Day Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"3 22 35","Bill Haas Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"4 7","Brandt Snedeker Bubba Watson",4,0,0.88,0.125
+"4 16","Brandt Snedeker Henrik Stenson",1,0,0.88,0.125
+"4 19","Brandt Snedeker Jason Day",3,0,0.88,0.125
+"4 22","Brandt Snedeker Jordan Spieth",3,0,0.88,0.125
+"4 23","Brandt Snedeker Justin Rose",1,0,0.88,0.125
+"4 27","Brandt Snedeker Louis Oosthuizen",1,0,0.88,0.125
+"4 32","Brandt Snedeker Phil Mickelson",1,0,0.88,0.125
+"4 34","Brandt Snedeker Rickie Fowler",1,0,0.88,0.125
+"4 35","Brandt Snedeker Rory McIlroy",3,0,0.88,0.125
+"4 7 16","Brandt Snedeker Bubba Watson Henrik Stenson",1,0,0.88,0.125
+"4 7 19","Brandt Snedeker Bubba Watson Jason Day",2,0,0.88,0.125
+"4 7 22","Brandt Snedeker Bubba Watson Jordan Spieth",2,0,0.88,0.125
+"4 7 23","Brandt Snedeker Bubba Watson Justin Rose",1,0,0.88,0.125
+"4 7 27","Brandt Snedeker Bubba Watson Louis Oosthuizen",1,0,0.88,0.125
+"4 7 34","Brandt Snedeker Bubba Watson Rickie Fowler",1,0,0.88,0.125
+"4 7 35","Brandt Snedeker Bubba Watson Rory McIlroy",3,0,0.88,0.125
+"4 7 16 27","Brandt Snedeker Bubba Watson Henrik Stenson Louis Oosthuizen",1,0,0.88,0.125
+"4 7 16 35","Brandt Snedeker Bubba Watson Henrik Stenson Rory McIlroy",1,0,0.88,0.125
+"4 7 16 27 35","Brandt Snedeker Bubba Watson Henrik Stenson Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"4 7 19 22","Brandt Snedeker Bubba Watson Jason Day Jordan Spieth",2,0,0.88,0.125
+"4 7 19 35","Brandt Snedeker Bubba Watson Jason Day Rory McIlroy",1,0,0.88,0.125
+"4 7 19 22 35","Brandt Snedeker Bubba Watson Jason Day Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"4 7 22 35","Brandt Snedeker Bubba Watson Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"4 7 23 34","Brandt Snedeker Bubba Watson Justin Rose Rickie Fowler",1,0,0.88,0.125
+"4 7 23 35","Brandt Snedeker Bubba Watson Justin Rose Rory McIlroy",1,0,0.88,0.125
+"4 7 23 34 35","Brandt Snedeker Bubba Watson Justin Rose Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"4 7 27 35","Brandt Snedeker Bubba Watson Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"4 7 34 35","Brandt Snedeker Bubba Watson Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"4 16 27","Brandt Snedeker Henrik Stenson Louis Oosthuizen",1,0,0.88,0.125
+"4 16 35","Brandt Snedeker Henrik Stenson Rory McIlroy",1,0,0.88,0.125
+"4 16 27 35","Brandt Snedeker Henrik Stenson Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"4 19 22","Brandt Snedeker Jason Day Jordan Spieth",3,0,0.88,0.125
+"4 19 32","Brandt Snedeker Jason Day Phil Mickelson",1,0,0.88,0.125
+"4 19 35","Brandt Snedeker Jason Day Rory McIlroy",1,0,0.88,0.125
+"4 19 22 32","Brandt Snedeker Jason Day Jordan Spieth Phil Mickelson",1,0,0.88,0.125
+"4 19 22 35","Brandt Snedeker Jason Day Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"4 22 32","Brandt Snedeker Jordan Spieth Phil Mickelson",1,0,0.88,0.125
+"4 22 35","Brandt Snedeker Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"4 23 34","Brandt Snedeker Justin Rose Rickie Fowler",1,0,0.88,0.125
+"4 23 35","Brandt Snedeker Justin Rose Rory McIlroy",1,0,0.88,0.125
+"4 23 34 35","Brandt Snedeker Justin Rose Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"4 27 35","Brandt Snedeker Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"4 34 35","Brandt Snedeker Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"5 7","Brooks Koepka Bubba Watson",2,0,0.88,0.125
+"5 12","Brooks Koepka Danny Willett",1,0,0.88,0.125
+"5 19","Brooks Koepka Jason Day",3,0,0.88,0.125
+"5 32","Brooks Koepka Phil Mickelson",1,0,0.88,0.125
+"5 34","Brooks Koepka Rickie Fowler",1,0,0.88,0.125
+"5 35","Brooks Koepka Rory McIlroy",2,0,0.88,0.125
+"5 7 12","Brooks Koepka Bubba Watson Danny Willett",1,0,0.88,0.125
+"5 7 19","Brooks Koepka Bubba Watson Jason Day",2,0,0.88,0.125
+"5 7 35","Brooks Koepka Bubba Watson Rory McIlroy",1,0,0.88,0.125
+"5 7 12 19","Brooks Koepka Bubba Watson Danny Willett Jason Day",1,0,0.88,0.125
+"5 7 19 35","Brooks Koepka Bubba Watson Jason Day Rory McIlroy",1,0,0.88,0.125
+"5 12 19","Brooks Koepka Danny Willett Jason Day",1,0,0.88,0.125
+"5 19 32","Brooks Koepka Jason Day Phil Mickelson",1,0,0.88,0.125
+"5 19 34","Brooks Koepka Jason Day Rickie Fowler",1,0,0.88,0.125
+"5 19 35","Brooks Koepka Jason Day Rory McIlroy",2,0,0.88,0.125
+"5 19 32 34","Brooks Koepka Jason Day Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"5 19 32 35","Brooks Koepka Jason Day Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"5 19 32 34 35","Brooks Koepka Jason Day Phil Mickelson Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"5 19 34 35","Brooks Koepka Jason Day Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"5 32 34","Brooks Koepka Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"5 32 35","Brooks Koepka Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"5 32 34 35","Brooks Koepka Phil Mickelson Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"5 34 35","Brooks Koepka Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"6 16","Bryson DeChambeau Henrik Stenson",1,0,0.88,0.125
+"6 19","Bryson DeChambeau Jason Day",1,0,0.88,0.125
+"6 22","Bryson DeChambeau Jordan Spieth",1,0,0.88,0.125
+"6 24","Bryson DeChambeau Justin Thomas",1,0,0.88,0.125
+"6 34","Bryson DeChambeau Rickie Fowler",2,0,0.88,0.125
+"6 35","Bryson DeChambeau Rory McIlroy",2,0,0.88,0.125
+"6 16 24","Bryson DeChambeau Henrik Stenson Justin Thomas",1,0,0.88,0.125
+"6 16 34","Bryson DeChambeau Henrik Stenson Rickie Fowler",1,0,0.88,0.125
+"6 16 35","Bryson DeChambeau Henrik Stenson Rory McIlroy",1,0,0.88,0.125
+"6 16 24 34","Bryson DeChambeau Henrik Stenson Justin Thomas Rickie Fowler",1,0,0.88,0.125
+"6 16 24 35","Bryson DeChambeau Henrik Stenson Justin Thomas Rory McIlroy",1,0,0.88,0.125
+"6 16 24 34 35","Bryson DeChambeau Henrik Stenson Justin Thomas Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"6 16 34 35","Bryson DeChambeau Henrik Stenson Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"6 19 22","Bryson DeChambeau Jason Day Jordan Spieth",1,0,0.88,0.125
+"6 19 34","Bryson DeChambeau Jason Day Rickie Fowler",1,0,0.88,0.125
+"6 19 35","Bryson DeChambeau Jason Day Rory McIlroy",1,0,0.88,0.125
+"6 19 22 34","Bryson DeChambeau Jason Day Jordan Spieth Rickie Fowler",1,0,0.88,0.125
+"6 19 22 35","Bryson DeChambeau Jason Day Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"6 19 22 34 35","Bryson DeChambeau Jason Day Jordan Spieth Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"6 19 34 35","Bryson DeChambeau Jason Day Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"6 22 34","Bryson DeChambeau Jordan Spieth Rickie Fowler",1,0,0.88,0.125
+"6 22 35","Bryson DeChambeau Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"6 22 34 35","Bryson DeChambeau Jordan Spieth Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"6 24 34","Bryson DeChambeau Justin Thomas Rickie Fowler",1,0,0.88,0.125
+"6 24 35","Bryson DeChambeau Justin Thomas Rory McIlroy",1,0,0.88,0.125
+"6 24 34 35","Bryson DeChambeau Justin Thomas Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"6 34 35","Bryson DeChambeau Rickie Fowler Rory McIlroy",2,0,0.88,0.125
+"7 9","Bubba Watson Charl Schwartzel",2,0,0.88,0.125
+"7 10","Bubba Watson Charley Hoffman",1,0,0.88,0.125
+"7 12","Bubba Watson Danny Willett",2,0,0.88,0.125
+"7 13","Bubba Watson Dustin Johnson",19,0,0.88,0.125
+"7 16","Bubba Watson Henrik Stenson",10,0,0.88,0.125
+"7 17","Bubba Watson Hideki Matsuyama",3,0,0.88,0.125
+"7 19","Bubba Watson Jason Day",43,0,0.88,0.125
+"7 21","Bubba Watson Jimmy Walker",3,0,0.88,0.125
+"7 22","Bubba Watson Jordan Spieth",38,0,0.88,0.125
+"7 23","Bubba Watson Justin Rose",5,0,0.88,0.125
+"7 25","Bubba Watson Keegan Bradley",1,0,0.88,0.125
+"7 26","Bubba Watson Kevin Kisner",1,0,0.88,0.125
+"7 27","Bubba Watson Louis Oosthuizen",7,0,0.88,0.125
+"7 28","Bubba Watson Marc Leishman",1,0,0.88,0.125
+"7 30","Bubba Watson Patrick Reed",1,0,0.88,0.125
+"7 31","Bubba Watson Paul Casey",1,0,0.88,0.125
+"7 32","Bubba Watson Phil Mickelson",14,0,0.88,0.125
+"7 33","Bubba Watson Rafael Cabrera Bello",2,0,0.88,0.125
+"7 34","Bubba Watson Rickie Fowler",19,0,0.88,0.125
+"7 35","Bubba Watson Rory McIlroy",26,0,0.88,0.125
+"7 37","Bubba Watson Sergio Garcia",1,0,0.88,0.125
+"7 9 10","Bubba Watson Charl Schwartzel Charley Hoffman",1,0,0.88,0.125
+"7 9 13","Bubba Watson Charl Schwartzel Dustin Johnson",1,0,0.88,0.125
+"7 9 16","Bubba Watson Charl Schwartzel Henrik Stenson",1,0,0.88,0.125
+"7 9 27","Bubba Watson Charl Schwartzel Louis Oosthuizen",1,0,0.88,0.125
+"7 9 34","Bubba Watson Charl Schwartzel Rickie Fowler",1,0,0.88,0.125
+"7 9 10 13","Bubba Watson Charl Schwartzel Charley Hoffman Dustin Johnson",1,0,0.88,0.125
+"7 9 10 27","Bubba Watson Charl Schwartzel Charley Hoffman Louis Oosthuizen",1,0,0.88,0.125
+"7 9 10 13 27","Bubba Watson Charl Schwartzel Charley Hoffman Dustin Johnson Louis Oosthuizen",1,0,0.88,0.125
+"7 9 13 27","Bubba Watson Charl Schwartzel Dustin Johnson Louis Oosthuizen",1,0,0.88,0.125
+"7 9 16 34","Bubba Watson Charl Schwartzel Henrik Stenson Rickie Fowler",1,0,0.88,0.125
+"7 10 13","Bubba Watson Charley Hoffman Dustin Johnson",1,0,0.88,0.125
+"7 10 27","Bubba Watson Charley Hoffman Louis Oosthuizen",1,0,0.88,0.125
+"7 10 13 27","Bubba Watson Charley Hoffman Dustin Johnson Louis Oosthuizen",1,0,0.88,0.125
+"7 12 19","Bubba Watson Danny Willett Jason Day",2,0,0.88,0.125
+"7 12 31","Bubba Watson Danny Willett Paul Casey",1,0,0.88,0.125
+"7 12 35","Bubba Watson Danny Willett Rory McIlroy",1,0,0.88,0.125
+"7 12 19 31","Bubba Watson Danny Willett Jason Day Paul Casey",1,0,0.88,0.125
+"7 12 19 35","Bubba Watson Danny Willett Jason Day Rory McIlroy",1,0,0.88,0.125
+"7 12 19 31 35","Bubba Watson Danny Willett Jason Day Paul Casey Rory McIlroy",1,0,0.88,0.125
+"7 12 31 35","Bubba Watson Danny Willett Paul Casey Rory McIlroy",1,0,0.88,0.125
+"7 13 16","Bubba Watson Dustin Johnson Henrik Stenson",4,0,0.88,0.125
+"7 13 17","Bubba Watson Dustin Johnson Hideki Matsuyama",1,0,0.88,0.125
+"7 13 19","Bubba Watson Dustin Johnson Jason Day",9,0,0.88,0.125
+"7 13 21","Bubba Watson Dustin Johnson Jimmy Walker",2,0,0.88,0.125
+"7 13 22","Bubba Watson Dustin Johnson Jordan Spieth",11,0,0.88,0.125
+"7 13 25","Bubba Watson Dustin Johnson Keegan Bradley",1,0,0.88,0.125
+"7 13 27","Bubba Watson Dustin Johnson Louis Oosthuizen",4,0,0.88,0.125
+"7 13 30","Bubba Watson Dustin Johnson Patrick Reed",1,0,0.88,0.125
+"7 13 32","Bubba Watson Dustin Johnson Phil Mickelson",2,0,0.88,0.125
+"7 13 33","Bubba Watson Dustin Johnson Rafael Cabrera Bello",1,0,0.88,0.125
+"7 13 34","Bubba Watson Dustin Johnson Rickie Fowler",10,0,0.88,0.125
+"7 13 35","Bubba Watson Dustin Johnson Rory McIlroy",7,0,0.88,0.125
+"7 13 16 19","Bubba Watson Dustin Johnson Henrik Stenson Jason Day",2,0,0.88,0.125
+"7 13 16 22","Bubba Watson Dustin Johnson Henrik Stenson Jordan Spieth",3,0,0.88,0.125
+"7 13 16 27","Bubba Watson Dustin Johnson Henrik Stenson Louis Oosthuizen",1,0,0.88,0.125
+"7 13 16 33","Bubba Watson Dustin Johnson Henrik Stenson Rafael Cabrera Bello",1,0,0.88,0.125
+"7 13 16 35","Bubba Watson Dustin Johnson Henrik Stenson Rory McIlroy",1,0,0.88,0.125
+"7 13 16 19 22","Bubba Watson Dustin Johnson Henrik Stenson Jason Day Jordan Spieth",1,0,0.88,0.125
+"7 13 16 19 35","Bubba Watson Dustin Johnson Henrik Stenson Jason Day Rory McIlroy",1,0,0.88,0.125
+"7 13 16 22 27","Bubba Watson Dustin Johnson Henrik Stenson Jordan Spieth Louis Oosthuizen",1,0,0.88,0.125
+"7 13 16 22 33","Bubba Watson Dustin Johnson Henrik Stenson Jordan Spieth Rafael Cabrera Bello",1,0,0.88,0.125
+"7 13 17 22","Bubba Watson Dustin Johnson Hideki Matsuyama Jordan Spieth",1,0,0.88,0.125
+"7 13 17 35","Bubba Watson Dustin Johnson Hideki Matsuyama Rory McIlroy",1,0,0.88,0.125
+"7 13 17 22 35","Bubba Watson Dustin Johnson Hideki Matsuyama Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"7 13 19 22","Bubba Watson Dustin Johnson Jason Day Jordan Spieth",3,0,0.88,0.125
+"7 13 19 27","Bubba Watson Dustin Johnson Jason Day Louis Oosthuizen",2,0,0.88,0.125
+"7 13 19 32","Bubba Watson Dustin Johnson Jason Day Phil Mickelson",1,0,0.88,0.125
+"7 13 19 34","Bubba Watson Dustin Johnson Jason Day Rickie Fowler",5,0,0.88,0.125
+"7 13 19 35","Bubba Watson Dustin Johnson Jason Day Rory McIlroy",4,0,0.88,0.125
+"7 13 19 22 34","Bubba Watson Dustin Johnson Jason Day Jordan Spieth Rickie Fowler",1,0,0.88,0.125
+"7 13 19 27 34","Bubba Watson Dustin Johnson Jason Day Louis Oosthuizen Rickie Fowler",1,0,0.88,0.125
+"7 13 19 27 35","Bubba Watson Dustin Johnson Jason Day Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"7 13 19 32 34","Bubba Watson Dustin Johnson Jason Day Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"7 13 19 34 35","Bubba Watson Dustin Johnson Jason Day Rickie Fowler Rory McIlroy",2,0,0.88,0.125
+"7 13 21 22","Bubba Watson Dustin Johnson Jimmy Walker Jordan Spieth",2,0,0.88,0.125
+"7 13 21 34","Bubba Watson Dustin Johnson Jimmy Walker Rickie Fowler",1,0,0.88,0.125
+"7 13 21 22 34","Bubba Watson Dustin Johnson Jimmy Walker Jordan Spieth Rickie Fowler",1,0,0.88,0.125
+"7 13 22 27","Bubba Watson Dustin Johnson Jordan Spieth Louis Oosthuizen",1,0,0.88,0.125
+"7 13 22 30","Bubba Watson Dustin Johnson Jordan Spieth Patrick Reed",1,0,0.88,0.125
+"7 13 22 32","Bubba Watson Dustin Johnson Jordan Spieth Phil Mickelson",1,0,0.88,0.125
+"7 13 22 33","Bubba Watson Dustin Johnson Jordan Spieth Rafael Cabrera Bello",1,0,0.88,0.125
+"7 13 22 34","Bubba Watson Dustin Johnson Jordan Spieth Rickie Fowler",5,0,0.88,0.125
+"7 13 22 35","Bubba Watson Dustin Johnson Jordan Spieth Rory McIlroy",2,0,0.88,0.125
+"7 13 22 30 34","Bubba Watson Dustin Johnson Jordan Spieth Patrick Reed Rickie Fowler",1,0,0.88,0.125
+"7 13 22 32 34","Bubba Watson Dustin Johnson Jordan Spieth Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"7 13 22 34 35","Bubba Watson Dustin Johnson Jordan Spieth Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"7 13 25 34","Bubba Watson Dustin Johnson Keegan Bradley Rickie Fowler",1,0,0.88,0.125
+"7 13 25 35","Bubba Watson Dustin Johnson Keegan Bradley Rory McIlroy",1,0,0.88,0.125
+"7 13 25 34 35","Bubba Watson Dustin Johnson Keegan Bradley Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"7 13 27 34","Bubba Watson Dustin Johnson Louis Oosthuizen Rickie Fowler",1,0,0.88,0.125
+"7 13 27 35","Bubba Watson Dustin Johnson Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"7 13 30 34","Bubba Watson Dustin Johnson Patrick Reed Rickie Fowler",1,0,0.88,0.125
+"7 13 32 34","Bubba Watson Dustin Johnson Phil Mickelson Rickie Fowler",2,0,0.88,0.125
+"7 13 34 35","Bubba Watson Dustin Johnson Rickie Fowler Rory McIlroy",4,0,0.88,0.125
+"7 16 19","Bubba Watson Henrik Stenson Jason Day",5,0,0.88,0.125
+"7 16 22","Bubba Watson Henrik Stenson Jordan Spieth",6,0,0.88,0.125
+"7 16 27","Bubba Watson Henrik Stenson Louis Oosthuizen",2,0,0.88,0.125
+"7 16 32","Bubba Watson Henrik Stenson Phil Mickelson",1,0,0.88,0.125
+"7 16 33","Bubba Watson Henrik Stenson Rafael Cabrera Bello",1,0,0.88,0.125
+"7 16 34","Bubba Watson Henrik Stenson Rickie Fowler",1,0,0.88,0.125
+"7 16 35","Bubba Watson Henrik Stenson Rory McIlroy",4,0,0.88,0.125
+"7 16 19 22","Bubba Watson Henrik Stenson Jason Day Jordan Spieth",3,0,0.88,0.125
+"7 16 19 35","Bubba Watson Henrik Stenson Jason Day Rory McIlroy",3,0,0.88,0.125
+"7 16 19 22 35","Bubba Watson Henrik Stenson Jason Day Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"7 16 22 27","Bubba Watson Henrik Stenson Jordan Spieth Louis Oosthuizen",1,0,0.88,0.125
+"7 16 22 32","Bubba Watson Henrik Stenson Jordan Spieth Phil Mickelson",1,0,0.88,0.125
+"7 16 22 33","Bubba Watson Henrik Stenson Jordan Spieth Rafael Cabrera Bello",1,0,0.88,0.125
+"7 16 22 35","Bubba Watson Henrik Stenson Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"7 16 27 35","Bubba Watson Henrik Stenson Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"7 17 19","Bubba Watson Hideki Matsuyama Jason Day",1,0,0.88,0.125
+"7 17 22","Bubba Watson Hideki Matsuyama Jordan Spieth",1,0,0.88,0.125
+"7 17 32","Bubba Watson Hideki Matsuyama Phil Mickelson",1,0,0.88,0.125
+"7 17 34","Bubba Watson Hideki Matsuyama Rickie Fowler",2,0,0.88,0.125
+"7 17 35","Bubba Watson Hideki Matsuyama Rory McIlroy",1,0,0.88,0.125
+"7 17 19 34","Bubba Watson Hideki Matsuyama Jason Day Rickie Fowler",1,0,0.88,0.125
+"7 17 22 35","Bubba Watson Hideki Matsuyama Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"7 17 32 34","Bubba Watson Hideki Matsuyama Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"7 19 21","Bubba Watson Jason Day Jimmy Walker",1,0,0.88,0.125
+"7 19 22","Bubba Watson Jason Day Jordan Spieth",29,0,0.88,0.125
+"7 19 23","Bubba Watson Jason Day Justin Rose",4,0,0.88,0.125
+"7 19 26","Bubba Watson Jason Day Kevin Kisner",1,0,0.88,0.125
+"7 19 27","Bubba Watson Jason Day Louis Oosthuizen",4,0,0.88,0.125
+"7 19 28","Bubba Watson Jason Day Marc Leishman",1,0,0.88,0.125
+"7 19 31","Bubba Watson Jason Day Paul Casey",1,0,0.88,0.125
+"7 19 32","Bubba Watson Jason Day Phil Mickelson",11,0,0.88,0.125
+"7 19 33","Bubba Watson Jason Day Rafael Cabrera Bello",1,0,0.88,0.125
+"7 19 34","Bubba Watson Jason Day Rickie Fowler",11,0,0.88,0.125
+"7 19 35","Bubba Watson Jason Day Rory McIlroy",21,0,0.88,0.125
+"7 19 37","Bubba Watson Jason Day Sergio Garcia",1,0,0.88,0.125
+"7 19 21 22","Bubba Watson Jason Day Jimmy Walker Jordan Spieth",1,0,0.88,0.125
+"7 19 22 23","Bubba Watson Jason Day Jordan Spieth Justin Rose",3,0,0.88,0.125
+"7 19 22 26","Bubba Watson Jason Day Jordan Spieth Kevin Kisner",1,0,0.88,0.125
+"7 19 22 27","Bubba Watson Jason Day Jordan Spieth Louis Oosthuizen",2,0,0.88,0.125
+"7 19 22 28","Bubba Watson Jason Day Jordan Spieth Marc Leishman",1,0,0.88,0.125
+"7 19 22 32","Bubba Watson Jason Day Jordan Spieth Phil Mickelson",8,0,0.88,0.125
+"7 19 22 33","Bubba Watson Jason Day Jordan Spieth Rafael Cabrera Bello",1,0,0.88,0.125
+"7 19 22 34","Bubba Watson Jason Day Jordan Spieth Rickie Fowler",3,0,0.88,0.125
+"7 19 22 35","Bubba Watson Jason Day Jordan Spieth Rory McIlroy",14,0,0.88,0.125
+"7 19 22 37","Bubba Watson Jason Day Jordan Spieth Sergio Garcia",1,0,0.88,0.125
+"7 19 22 23 27","Bubba Watson Jason Day Jordan Spieth Justin Rose Louis Oosthuizen",1,0,0.88,0.125
+"7 19 22 23 32","Bubba Watson Jason Day Jordan Spieth Justin Rose Phil Mickelson",1,0,0.88,0.125
+"7 19 22 26 35","Bubba Watson Jason Day Jordan Spieth Kevin Kisner Rory McIlroy",1,0,0.88,0.125
+"7 19 22 27 34","Bubba Watson Jason Day Jordan Spieth Louis Oosthuizen Rickie Fowler",1,0,0.88,0.125
+"7 19 22 32 34","Bubba Watson Jason Day Jordan Spieth Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"7 19 22 32 35","Bubba Watson Jason Day Jordan Spieth Phil Mickelson Rory McIlroy",3,0,0.88,0.125
+"7 19 22 32 37","Bubba Watson Jason Day Jordan Spieth Phil Mickelson Sergio Garcia",1,0,0.88,0.125
+"7 19 22 33 35","Bubba Watson Jason Day Jordan Spieth Rafael Cabrera Bello Rory McIlroy",1,0,0.88,0.125
+"7 19 23 27","Bubba Watson Jason Day Justin Rose Louis Oosthuizen",1,0,0.88,0.125
+"7 19 23 32","Bubba Watson Jason Day Justin Rose Phil Mickelson",1,0,0.88,0.125
+"7 19 23 34","Bubba Watson Jason Day Justin Rose Rickie Fowler",1,0,0.88,0.125
+"7 19 26 35","Bubba Watson Jason Day Kevin Kisner Rory McIlroy",1,0,0.88,0.125
+"7 19 27 34","Bubba Watson Jason Day Louis Oosthuizen Rickie Fowler",2,0,0.88,0.125
+"7 19 27 35","Bubba Watson Jason Day Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"7 19 31 35","Bubba Watson Jason Day Paul Casey Rory McIlroy",1,0,0.88,0.125
+"7 19 32 34","Bubba Watson Jason Day Phil Mickelson Rickie Fowler",4,0,0.88,0.125
+"7 19 32 35","Bubba Watson Jason Day Phil Mickelson Rory McIlroy",3,0,0.88,0.125
+"7 19 32 37","Bubba Watson Jason Day Phil Mickelson Sergio Garcia",1,0,0.88,0.125
+"7 19 33 35","Bubba Watson Jason Day Rafael Cabrera Bello Rory McIlroy",1,0,0.88,0.125
+"7 19 34 35","Bubba Watson Jason Day Rickie Fowler Rory McIlroy",2,0,0.88,0.125
+"7 21 22","Bubba Watson Jimmy Walker Jordan Spieth",3,0,0.88,0.125
+"7 21 34","Bubba Watson Jimmy Walker Rickie Fowler",1,0,0.88,0.125
+"7 21 22 34","Bubba Watson Jimmy Walker Jordan Spieth Rickie Fowler",1,0,0.88,0.125
+"7 22 23","Bubba Watson Jordan Spieth Justin Rose",3,0,0.88,0.125
+"7 22 26","Bubba Watson Jordan Spieth Kevin Kisner",1,0,0.88,0.125
+"7 22 27","Bubba Watson Jordan Spieth Louis Oosthuizen",3,0,0.88,0.125
+"7 22 28","Bubba Watson Jordan Spieth Marc Leishman",1,0,0.88,0.125
+"7 22 30","Bubba Watson Jordan Spieth Patrick Reed",1,0,0.88,0.125
+"7 22 32","Bubba Watson Jordan Spieth Phil Mickelson",10,0,0.88,0.125
+"7 22 33","Bubba Watson Jordan Spieth Rafael Cabrera Bello",2,0,0.88,0.125
+"7 22 34","Bubba Watson Jordan Spieth Rickie Fowler",7,0,0.88,0.125
+"7 22 35","Bubba Watson Jordan Spieth Rory McIlroy",16,0,0.88,0.125
+"7 22 37","Bubba Watson Jordan Spieth Sergio Garcia",1,0,0.88,0.125
+"7 22 23 27","Bubba Watson Jordan Spieth Justin Rose Louis Oosthuizen",1,0,0.88,0.125
+"7 22 23 32","Bubba Watson Jordan Spieth Justin Rose Phil Mickelson",1,0,0.88,0.125
+"7 22 26 35","Bubba Watson Jordan Spieth Kevin Kisner Rory McIlroy",1,0,0.88,0.125
+"7 22 27 34","Bubba Watson Jordan Spieth Louis Oosthuizen Rickie Fowler",1,0,0.88,0.125
+"7 22 30 34","Bubba Watson Jordan Spieth Patrick Reed Rickie Fowler",1,0,0.88,0.125
+"7 22 32 34","Bubba Watson Jordan Spieth Phil Mickelson Rickie Fowler",2,0,0.88,0.125
+"7 22 32 35","Bubba Watson Jordan Spieth Phil Mickelson Rory McIlroy",3,0,0.88,0.125
+"7 22 32 37","Bubba Watson Jordan Spieth Phil Mickelson Sergio Garcia",1,0,0.88,0.125
+"7 22 33 35","Bubba Watson Jordan Spieth Rafael Cabrera Bello Rory McIlroy",1,0,0.88,0.125
+"7 22 34 35","Bubba Watson Jordan Spieth Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"7 23 27","Bubba Watson Justin Rose Louis Oosthuizen",1,0,0.88,0.125
+"7 23 32","Bubba Watson Justin Rose Phil Mickelson",1,0,0.88,0.125
+"7 23 34","Bubba Watson Justin Rose Rickie Fowler",2,0,0.88,0.125
+"7 23 35","Bubba Watson Justin Rose Rory McIlroy",1,0,0.88,0.125
+"7 23 34 35","Bubba Watson Justin Rose Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"7 25 34","Bubba Watson Keegan Bradley Rickie Fowler",1,0,0.88,0.125
+"7 25 35","Bubba Watson Keegan Bradley Rory McIlroy",1,0,0.88,0.125
+"7 25 34 35","Bubba Watson Keegan Bradley Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"7 26 35","Bubba Watson Kevin Kisner Rory McIlroy",1,0,0.88,0.125
+"7 27 34","Bubba Watson Louis Oosthuizen Rickie Fowler",2,0,0.88,0.125
+"7 27 35","Bubba Watson Louis Oosthuizen Rory McIlroy",2,0,0.88,0.125
+"7 30 34","Bubba Watson Patrick Reed Rickie Fowler",1,0,0.88,0.125
+"7 31 35","Bubba Watson Paul Casey Rory McIlroy",1,0,0.88,0.125
+"7 32 34","Bubba Watson Phil Mickelson Rickie Fowler",6,0,0.88,0.125
+"7 32 35","Bubba Watson Phil Mickelson Rory McIlroy",3,0,0.88,0.125
+"7 32 37","Bubba Watson Phil Mickelson Sergio Garcia",1,0,0.88,0.125
+"7 33 35","Bubba Watson Rafael Cabrera Bello Rory McIlroy",1,0,0.88,0.125
+"7 34 35","Bubba Watson Rickie Fowler Rory McIlroy",5,0,0.88,0.125
+"8 18","Cameron Smith J.B. Holmes",1,0,0.88,0.125
+"8 23","Cameron Smith Justin Rose",1,0,0.88,0.125
+"8 36","Cameron Smith Russell Knox",1,0,0.88,0.125
+"8 38","Cameron Smith Troy Merritt",1,0,0.88,0.125
+"8 18 23","Cameron Smith J.B. Holmes Justin Rose",1,0,0.88,0.125
+"8 18 36","Cameron Smith J.B. Holmes Russell Knox",1,0,0.88,0.125
+"8 18 38","Cameron Smith J.B. Holmes Troy Merritt",1,0,0.88,0.125
+"8 18 23 36","Cameron Smith J.B. Holmes Justin Rose Russell Knox",1,0,0.88,0.125
+"8 18 23 38","Cameron Smith J.B. Holmes Justin Rose Troy Merritt",1,0,0.88,0.125
+"8 18 23 36 38","Cameron Smith J.B. Holmes Justin Rose Russell Knox Troy Merritt",1,0,0.88,0.125
+"8 18 36 38","Cameron Smith J.B. Holmes Russell Knox Troy Merritt",1,0,0.88,0.125
+"8 23 36","Cameron Smith Justin Rose Russell Knox",1,0,0.88,0.125
+"8 23 38","Cameron Smith Justin Rose Troy Merritt",1,0,0.88,0.125
+"8 23 36 38","Cameron Smith Justin Rose Russell Knox Troy Merritt",1,0,0.88,0.125
+"8 36 38","Cameron Smith Russell Knox Troy Merritt",1,0,0.88,0.125
+"9 10","Charl Schwartzel Charley Hoffman",1,0,0.88,0.125
+"9 13","Charl Schwartzel Dustin Johnson",2,0,0.88,0.125
+"9 16","Charl Schwartzel Henrik Stenson",2,0,0.88,0.125
+"9 19","Charl Schwartzel Jason Day",4,0,0.88,0.125
+"9 22","Charl Schwartzel Jordan Spieth",4,0,0.88,0.125
+"9 23","Charl Schwartzel Justin Rose",1,0,0.88,0.125
+"9 27","Charl Schwartzel Louis Oosthuizen",2,0,0.88,0.125
+"9 32","Charl Schwartzel Phil Mickelson",3,0,0.88,0.125
+"9 34","Charl Schwartzel Rickie Fowler",2,0,0.88,0.125
+"9 10 13","Charl Schwartzel Charley Hoffman Dustin Johnson",1,0,0.88,0.125
+"9 10 27","Charl Schwartzel Charley Hoffman Louis Oosthuizen",1,0,0.88,0.125
+"9 10 13 27","Charl Schwartzel Charley Hoffman Dustin Johnson Louis Oosthuizen",1,0,0.88,0.125
+"9 13 19","Charl Schwartzel Dustin Johnson Jason Day",1,0,0.88,0.125
+"9 13 22","Charl Schwartzel Dustin Johnson Jordan Spieth",1,0,0.88,0.125
+"9 13 27","Charl Schwartzel Dustin Johnson Louis Oosthuizen",1,0,0.88,0.125
+"9 13 19 22","Charl Schwartzel Dustin Johnson Jason Day Jordan Spieth",1,0,0.88,0.125
+"9 16 19","Charl Schwartzel Henrik Stenson Jason Day",1,0,0.88,0.125
+"9 16 22","Charl Schwartzel Henrik Stenson Jordan Spieth",1,0,0.88,0.125
+"9 16 34","Charl Schwartzel Henrik Stenson Rickie Fowler",1,0,0.88,0.125
+"9 16 19 22","Charl Schwartzel Henrik Stenson Jason Day Jordan Spieth",1,0,0.88,0.125
+"9 19 22","Charl Schwartzel Jason Day Jordan Spieth",4,0,0.88,0.125
+"9 19 32","Charl Schwartzel Jason Day Phil Mickelson",2,0,0.88,0.125
+"9 19 22 32","Charl Schwartzel Jason Day Jordan Spieth Phil Mickelson",2,0,0.88,0.125
+"9 22 32","Charl Schwartzel Jordan Spieth Phil Mickelson",2,0,0.88,0.125
+"9 23 27","Charl Schwartzel Justin Rose Louis Oosthuizen",1,0,0.88,0.125
+"9 23 32","Charl Schwartzel Justin Rose Phil Mickelson",1,0,0.88,0.125
+"9 23 34","Charl Schwartzel Justin Rose Rickie Fowler",1,0,0.88,0.125
+"9 23 27 32","Charl Schwartzel Justin Rose Louis Oosthuizen Phil Mickelson",1,0,0.88,0.125
+"9 23 27 34","Charl Schwartzel Justin Rose Louis Oosthuizen Rickie Fowler",1,0,0.88,0.125
+"9 23 27 32 34","Charl Schwartzel Justin Rose Louis Oosthuizen Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"9 23 32 34","Charl Schwartzel Justin Rose Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"9 27 32","Charl Schwartzel Louis Oosthuizen Phil Mickelson",1,0,0.88,0.125
+"9 27 34","Charl Schwartzel Louis Oosthuizen Rickie Fowler",1,0,0.88,0.125
+"9 27 32 34","Charl Schwartzel Louis Oosthuizen Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"9 32 34","Charl Schwartzel Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"10 13","Charley Hoffman Dustin Johnson",1,0,0.88,0.125
+"10 19","Charley Hoffman Jason Day",1,0,0.88,0.125
+"10 21","Charley Hoffman Jimmy Walker",1,0,0.88,0.125
+"10 22","Charley Hoffman Jordan Spieth",1,0,0.88,0.125
+"10 27","Charley Hoffman Louis Oosthuizen",1,0,0.88,0.125
+"10 29","Charley Hoffman Matt Kuchar",1,0,0.88,0.125
+"10 13 27","Charley Hoffman Dustin Johnson Louis Oosthuizen",1,0,0.88,0.125
+"10 19 21","Charley Hoffman Jason Day Jimmy Walker",1,0,0.88,0.125
+"10 19 22","Charley Hoffman Jason Day Jordan Spieth",1,0,0.88,0.125
+"10 19 29","Charley Hoffman Jason Day Matt Kuchar",1,0,0.88,0.125
+"10 19 21 22","Charley Hoffman Jason Day Jimmy Walker Jordan Spieth",1,0,0.88,0.125
+"10 19 21 29","Charley Hoffman Jason Day Jimmy Walker Matt Kuchar",1,0,0.88,0.125
+"10 19 21 22 29","Charley Hoffman Jason Day Jimmy Walker Jordan Spieth Matt Kuchar",1,0,0.88,0.125
+"10 19 22 29","Charley Hoffman Jason Day Jordan Spieth Matt Kuchar",1,0,0.88,0.125
+"10 21 22","Charley Hoffman Jimmy Walker Jordan Spieth",1,0,0.88,0.125
+"10 21 29","Charley Hoffman Jimmy Walker Matt Kuchar",1,0,0.88,0.125
+"10 21 22 29","Charley Hoffman Jimmy Walker Jordan Spieth Matt Kuchar",1,0,0.88,0.125
+"10 22 29","Charley Hoffman Jordan Spieth Matt Kuchar",1,0,0.88,0.125
+"11 17","Chris Kirk Hideki Matsuyama",1,0,0.88,0.125
+"11 19","Chris Kirk Jason Day",1,0,0.88,0.125
+"11 22","Chris Kirk Jordan Spieth",1,0,0.88,0.125
+"11 40","Chris Kirk Zach Johnson",1,0,0.88,0.125
+"11 17 19","Chris Kirk Hideki Matsuyama Jason Day",1,0,0.88,0.125
+"11 17 22","Chris Kirk Hideki Matsuyama Jordan Spieth",1,0,0.88,0.125
+"11 17 40","Chris Kirk Hideki Matsuyama Zach Johnson",1,0,0.88,0.125
+"11 17 19 22","Chris Kirk Hideki Matsuyama Jason Day Jordan Spieth",1,0,0.88,0.125
+"11 17 19 40","Chris Kirk Hideki Matsuyama Jason Day Zach Johnson",1,0,0.88,0.125
+"11 17 19 22 40","Chris Kirk Hideki Matsuyama Jason Day Jordan Spieth Zach Johnson",1,0,0.88,0.125
+"11 17 22 40","Chris Kirk Hideki Matsuyama Jordan Spieth Zach Johnson",1,0,0.88,0.125
+"11 19 22","Chris Kirk Jason Day Jordan Spieth",1,0,0.88,0.125
+"11 19 40","Chris Kirk Jason Day Zach Johnson",1,0,0.88,0.125
+"11 19 22 40","Chris Kirk Jason Day Jordan Spieth Zach Johnson",1,0,0.88,0.125
+"11 22 40","Chris Kirk Jordan Spieth Zach Johnson",1,0,0.88,0.125
+"12 19","Danny Willett Jason Day",4,0,0.88,0.125
+"12 22","Danny Willett Jordan Spieth",2,0,0.88,0.125
+"12 31","Danny Willett Paul Casey",1,0,0.88,0.125
+"12 32","Danny Willett Phil Mickelson",1,0,0.88,0.125
+"12 34","Danny Willett Rickie Fowler",2,0,0.88,0.125
+"12 35","Danny Willett Rory McIlroy",2,0,0.88,0.125
+"12 19 22","Danny Willett Jason Day Jordan Spieth",2,0,0.88,0.125
+"12 19 31","Danny Willett Jason Day Paul Casey",1,0,0.88,0.125
+"12 19 32","Danny Willett Jason Day Phil Mickelson",1,0,0.88,0.125
+"12 19 34","Danny Willett Jason Day Rickie Fowler",2,0,0.88,0.125
+"12 19 35","Danny Willett Jason Day Rory McIlroy",2,0,0.88,0.125
+"12 19 22 32","Danny Willett Jason Day Jordan Spieth Phil Mickelson",1,0,0.88,0.125
+"12 19 22 34","Danny Willett Jason Day Jordan Spieth Rickie Fowler",2,0,0.88,0.125
+"12 19 22 35","Danny Willett Jason Day Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"12 19 22 32 34","Danny Willett Jason Day Jordan Spieth Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"12 19 22 34 35","Danny Willett Jason Day Jordan Spieth Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"12 19 31 35","Danny Willett Jason Day Paul Casey Rory McIlroy",1,0,0.88,0.125
+"12 19 32 34","Danny Willett Jason Day Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"12 19 34 35","Danny Willett Jason Day Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"12 22 32","Danny Willett Jordan Spieth Phil Mickelson",1,0,0.88,0.125
+"12 22 34","Danny Willett Jordan Spieth Rickie Fowler",2,0,0.88,0.125
+"12 22 35","Danny Willett Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"12 22 32 34","Danny Willett Jordan Spieth Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"12 22 34 35","Danny Willett Jordan Spieth Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"12 31 35","Danny Willett Paul Casey Rory McIlroy",1,0,0.88,0.125
+"12 32 34","Danny Willett Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"12 34 35","Danny Willett Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"13 16","Dustin Johnson Henrik Stenson",12,0,0.88,0.125
+"13 17","Dustin Johnson Hideki Matsuyama",3,0,0.88,0.125
+"13 19","Dustin Johnson Jason Day",28,0,0.88,0.125
+"13 21","Dustin Johnson Jimmy Walker",3,0,0.88,0.125
+"13 22","Dustin Johnson Jordan Spieth",29,0,0.88,0.125
+"13 23","Dustin Johnson Justin Rose",6,0,0.88,0.125
+"13 25","Dustin Johnson Keegan Bradley",1,0,0.88,0.125
+"13 27","Dustin Johnson Louis Oosthuizen",6,0,0.88,0.125
+"13 30","Dustin Johnson Patrick Reed",4,0,0.88,0.125
+"13 32","Dustin Johnson Phil Mickelson",6,0,0.88,0.125
+"13 33","Dustin Johnson Rafael Cabrera Bello",2,0,0.88,0.125
+"13 34","Dustin Johnson Rickie Fowler",25,0,0.88,0.125
+"13 35","Dustin Johnson Rory McIlroy",22,0,0.88,0.125
+"13 40","Dustin Johnson Zach Johnson",1,0,0.88,0.125
+"13 16 17","Dustin Johnson Henrik Stenson Hideki Matsuyama",1,0,0.88,0.125
+"13 16 19","Dustin Johnson Henrik Stenson Jason Day",7,0,0.88,0.125
+"13 16 21","Dustin Johnson Henrik Stenson Jimmy Walker",1,0,0.88,0.125
+"13 16 22","Dustin Johnson Henrik Stenson Jordan Spieth",7,0,0.88,0.125
+"13 16 23","Dustin Johnson Henrik Stenson Justin Rose",2,0,0.88,0.125
+"13 16 27","Dustin Johnson Henrik Stenson Louis Oosthuizen",1,0,0.88,0.125
+"13 16 32","Dustin Johnson Henrik Stenson Phil Mickelson",1,0,0.88,0.125
+"13 16 33","Dustin Johnson Henrik Stenson Rafael Cabrera Bello",1,0,0.88,0.125
+"13 16 34","Dustin Johnson Henrik Stenson Rickie Fowler",6,0,0.88,0.125
+"13 16 35","Dustin Johnson Henrik Stenson Rory McIlroy",3,0,0.88,0.125
+"13 16 17 22","Dustin Johnson Henrik Stenson Hideki Matsuyama Jordan Spieth",1,0,0.88,0.125
+"13 16 17 34","Dustin Johnson Henrik Stenson Hideki Matsuyama Rickie Fowler",1,0,0.88,0.125
+"13 16 17 22 34","Dustin Johnson Henrik Stenson Hideki Matsuyama Jordan Spieth Rickie Fowler",1,0,0.88,0.125
+"13 16 19 21","Dustin Johnson Henrik Stenson Jason Day Jimmy Walker",1,0,0.88,0.125
+"13 16 19 22","Dustin Johnson Henrik Stenson Jason Day Jordan Spieth",4,0,0.88,0.125
+"13 16 19 34","Dustin Johnson Henrik Stenson Jason Day Rickie Fowler",4,0,0.88,0.125
+"13 16 19 35","Dustin Johnson Henrik Stenson Jason Day Rory McIlroy",2,0,0.88,0.125
+"13 16 19 21 34","Dustin Johnson Henrik Stenson Jason Day Jimmy Walker Rickie Fowler",1,0,0.88,0.125
+"13 16 19 22 34","Dustin Johnson Henrik Stenson Jason Day Jordan Spieth Rickie Fowler",2,0,0.88,0.125
+"13 16 19 22 35","Dustin Johnson Henrik Stenson Jason Day Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"13 16 21 34","Dustin Johnson Henrik Stenson Jimmy Walker Rickie Fowler",1,0,0.88,0.125
+"13 16 22 27","Dustin Johnson Henrik Stenson Jordan Spieth Louis Oosthuizen",1,0,0.88,0.125
+"13 16 22 33","Dustin Johnson Henrik Stenson Jordan Spieth Rafael Cabrera Bello",1,0,0.88,0.125
+"13 16 22 34","Dustin Johnson Henrik Stenson Jordan Spieth Rickie Fowler",3,0,0.88,0.125
+"13 16 22 35","Dustin Johnson Henrik Stenson Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"13 16 23 32","Dustin Johnson Henrik Stenson Justin Rose Phil Mickelson",1,0,0.88,0.125
+"13 16 23 34","Dustin Johnson Henrik Stenson Justin Rose Rickie Fowler",1,0,0.88,0.125
+"13 16 23 35","Dustin Johnson Henrik Stenson Justin Rose Rory McIlroy",1,0,0.88,0.125
+"13 16 23 32 35","Dustin Johnson Henrik Stenson Justin Rose Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"13 16 32 35","Dustin Johnson Henrik Stenson Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"13 17 19","Dustin Johnson Hideki Matsuyama Jason Day",1,0,0.88,0.125
+"13 17 22","Dustin Johnson Hideki Matsuyama Jordan Spieth",2,0,0.88,0.125
+"13 17 34","Dustin Johnson Hideki Matsuyama Rickie Fowler",1,0,0.88,0.125
+"13 17 35","Dustin Johnson Hideki Matsuyama Rory McIlroy",1,0,0.88,0.125
+"13 17 40","Dustin Johnson Hideki Matsuyama Zach Johnson",1,0,0.88,0.125
+"13 17 19 40","Dustin Johnson Hideki Matsuyama Jason Day Zach Johnson",1,0,0.88,0.125
+"13 17 22 34","Dustin Johnson Hideki Matsuyama Jordan Spieth Rickie Fowler",1,0,0.88,0.125
+"13 17 22 35","Dustin Johnson Hideki Matsuyama Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"13 19 21","Dustin Johnson Jason Day Jimmy Walker",1,0,0.88,0.125
+"13 19 22","Dustin Johnson Jason Day Jordan Spieth",17,0,0.88,0.125
+"13 19 23","Dustin Johnson Jason Day Justin Rose",2,0,0.88,0.125
+"13 19 27","Dustin Johnson Jason Day Louis Oosthuizen",3,0,0.88,0.125
+"13 19 32","Dustin Johnson Jason Day Phil Mickelson",4,0,0.88,0.125
+"13 19 34","Dustin Johnson Jason Day Rickie Fowler",13,0,0.88,0.125
+"13 19 35","Dustin Johnson Jason Day Rory McIlroy",14,0,0.88,0.125
+"13 19 40","Dustin Johnson Jason Day Zach Johnson",1,0,0.88,0.125
+"13 19 21 34","Dustin Johnson Jason Day Jimmy Walker Rickie Fowler",1,0,0.88,0.125
+"13 19 22 23","Dustin Johnson Jason Day Jordan Spieth Justin Rose",2,0,0.88,0.125
+"13 19 22 27","Dustin Johnson Jason Day Jordan Spieth Louis Oosthuizen",1,0,0.88,0.125
+"13 19 22 32","Dustin Johnson Jason Day Jordan Spieth Phil Mickelson",2,0,0.88,0.125
+"13 19 22 34","Dustin Johnson Jason Day Jordan Spieth Rickie Fowler",5,0,0.88,0.125
+"13 19 22 35","Dustin Johnson Jason Day Jordan Spieth Rory McIlroy",9,0,0.88,0.125
+"13 19 22 23 35","Dustin Johnson Jason Day Jordan Spieth Justin Rose Rory McIlroy",1,0,0.88,0.125
+"13 19 22 27 35","Dustin Johnson Jason Day Jordan Spieth Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"13 19 22 32 35","Dustin Johnson Jason Day Jordan Spieth Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"13 19 22 34 35","Dustin Johnson Jason Day Jordan Spieth Rickie Fowler Rory McIlroy",2,0,0.88,0.125
+"13 19 23 35","Dustin Johnson Jason Day Justin Rose Rory McIlroy",1,0,0.88,0.125
+"13 19 27 34","Dustin Johnson Jason Day Louis Oosthuizen Rickie Fowler",1,0,0.88,0.125
+"13 19 27 35","Dustin Johnson Jason Day Louis Oosthuizen Rory McIlroy",2,0,0.88,0.125
+"13 19 32 34","Dustin Johnson Jason Day Phil Mickelson Rickie Fowler",2,0,0.88,0.125
+"13 19 32 35","Dustin Johnson Jason Day Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"13 19 34 35","Dustin Johnson Jason Day Rickie Fowler Rory McIlroy",5,0,0.88,0.125
+"13 21 22","Dustin Johnson Jimmy Walker Jordan Spieth",2,0,0.88,0.125
+"13 21 34","Dustin Johnson Jimmy Walker Rickie Fowler",2,0,0.88,0.125
+"13 21 22 34","Dustin Johnson Jimmy Walker Jordan Spieth Rickie Fowler",1,0,0.88,0.125
+"13 22 23","Dustin Johnson Jordan Spieth Justin Rose",2,0,0.88,0.125
+"13 22 27","Dustin Johnson Jordan Spieth Louis Oosthuizen",2,0,0.88,0.125
+"13 22 30","Dustin Johnson Jordan Spieth Patrick Reed",3,0,0.88,0.125
+"13 22 32","Dustin Johnson Jordan Spieth Phil Mickelson",3,0,0.88,0.125
+"13 22 33","Dustin Johnson Jordan Spieth Rafael Cabrera Bello",1,0,0.88,0.125
+"13 22 34","Dustin Johnson Jordan Spieth Rickie Fowler",13,0,0.88,0.125
+"13 22 35","Dustin Johnson Jordan Spieth Rory McIlroy",12,0,0.88,0.125
+"13 22 23 35","Dustin Johnson Jordan Spieth Justin Rose Rory McIlroy",1,0,0.88,0.125
+"13 22 27 35","Dustin Johnson Jordan Spieth Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"13 22 30 34","Dustin Johnson Jordan Spieth Patrick Reed Rickie Fowler",3,0,0.88,0.125
+"13 22 32 34","Dustin Johnson Jordan Spieth Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"13 22 32 35","Dustin Johnson Jordan Spieth Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"13 22 34 35","Dustin Johnson Jordan Spieth Rickie Fowler Rory McIlroy",4,0,0.88,0.125
+"13 23 32","Dustin Johnson Justin Rose Phil Mickelson",1,0,0.88,0.125
+"13 23 34","Dustin Johnson Justin Rose Rickie Fowler",3,0,0.88,0.125
+"13 23 35","Dustin Johnson Justin Rose Rory McIlroy",4,0,0.88,0.125
+"13 23 32 35","Dustin Johnson Justin Rose Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"13 23 34 35","Dustin Johnson Justin Rose Rickie Fowler Rory McIlroy",2,0,0.88,0.125
+"13 25 34","Dustin Johnson Keegan Bradley Rickie Fowler",1,0,0.88,0.125
+"13 25 35","Dustin Johnson Keegan Bradley Rory McIlroy",1,0,0.88,0.125
+"13 25 34 35","Dustin Johnson Keegan Bradley Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"13 27 30","Dustin Johnson Louis Oosthuizen Patrick Reed",1,0,0.88,0.125
+"13 27 33","Dustin Johnson Louis Oosthuizen Rafael Cabrera Bello",1,0,0.88,0.125
+"13 27 34","Dustin Johnson Louis Oosthuizen Rickie Fowler",1,0,0.88,0.125
+"13 27 35","Dustin Johnson Louis Oosthuizen Rory McIlroy",3,0,0.88,0.125
+"13 27 30 33","Dustin Johnson Louis Oosthuizen Patrick Reed Rafael Cabrera Bello",1,0,0.88,0.125
+"13 27 30 35","Dustin Johnson Louis Oosthuizen Patrick Reed Rory McIlroy",1,0,0.88,0.125
+"13 27 30 33 35","Dustin Johnson Louis Oosthuizen Patrick Reed Rafael Cabrera Bello Rory McIlroy",1,0,0.88,0.125
+"13 27 33 35","Dustin Johnson Louis Oosthuizen Rafael Cabrera Bello Rory McIlroy",1,0,0.88,0.125
+"13 30 33","Dustin Johnson Patrick Reed Rafael Cabrera Bello",1,0,0.88,0.125
+"13 30 34","Dustin Johnson Patrick Reed Rickie Fowler",3,0,0.88,0.125
+"13 30 35","Dustin Johnson Patrick Reed Rory McIlroy",1,0,0.88,0.125
+"13 30 33 35","Dustin Johnson Patrick Reed Rafael Cabrera Bello Rory McIlroy",1,0,0.88,0.125
+"13 32 34","Dustin Johnson Phil Mickelson Rickie Fowler",3,0,0.88,0.125
+"13 32 35","Dustin Johnson Phil Mickelson Rory McIlroy",2,0,0.88,0.125
+"13 33 35","Dustin Johnson Rafael Cabrera Bello Rory McIlroy",1,0,0.88,0.125
+"13 34 35","Dustin Johnson Rickie Fowler Rory McIlroy",10,0,0.88,0.125
+"14 16","Ernie Els Henrik Stenson",1,0,0.88,0.125
+"14 27","Ernie Els Louis Oosthuizen",1,0,0.88,0.125
+"14 35","Ernie Els Rory McIlroy",1,0,0.88,0.125
+"14 16 27","Ernie Els Henrik Stenson Louis Oosthuizen",1,0,0.88,0.125
+"14 16 35","Ernie Els Henrik Stenson Rory McIlroy",1,0,0.88,0.125
+"14 16 27 35","Ernie Els Henrik Stenson Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"14 27 35","Ernie Els Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"15 23","Graeme McDowell Justin Rose",1,0,0.88,0.125
+"15 26","Graeme McDowell Kevin Kisner",1,0,0.88,0.125
+"15 39","Graeme McDowell Vaughn Taylor",1,0,0.88,0.125
+"15 23 26","Graeme McDowell Justin Rose Kevin Kisner",1,0,0.88,0.125
+"15 23 39","Graeme McDowell Justin Rose Vaughn Taylor",1,0,0.88,0.125
+"15 23 26 39","Graeme McDowell Justin Rose Kevin Kisner Vaughn Taylor",1,0,0.88,0.125
+"15 26 39","Graeme McDowell Kevin Kisner Vaughn Taylor",1,0,0.88,0.125
+"16 17","Henrik Stenson Hideki Matsuyama",2,0,0.88,0.125
+"16 19","Henrik Stenson Jason Day",19,0,0.88,0.125
+"16 20","Henrik Stenson Jason Dufner",1,0,0.88,0.125
+"16 21","Henrik Stenson Jimmy Walker",1,0,0.88,0.125
+"16 22","Henrik Stenson Jordan Spieth",18,0,0.88,0.125
+"16 23","Henrik Stenson Justin Rose",2,0,0.88,0.125
+"16 24","Henrik Stenson Justin Thomas",1,0,0.88,0.125
+"16 27","Henrik Stenson Louis Oosthuizen",7,0,0.88,0.125
+"16 31","Henrik Stenson Paul Casey",1,0,0.88,0.125
+"16 32","Henrik Stenson Phil Mickelson",3,0,0.88,0.125
+"16 33","Henrik Stenson Rafael Cabrera Bello",2,0,0.88,0.125
+"16 34","Henrik Stenson Rickie Fowler",11,0,0.88,0.125
+"16 35","Henrik Stenson Rory McIlroy",11,0,0.88,0.125
+"16 17 19","Henrik Stenson Hideki Matsuyama Jason Day",1,0,0.88,0.125
+"16 17 22","Henrik Stenson Hideki Matsuyama Jordan Spieth",2,0,0.88,0.125
+"16 17 27","Henrik Stenson Hideki Matsuyama Louis Oosthuizen",1,0,0.88,0.125
+"16 17 34","Henrik Stenson Hideki Matsuyama Rickie Fowler",1,0,0.88,0.125
+"16 17 19 22","Henrik Stenson Hideki Matsuyama Jason Day Jordan Spieth",1,0,0.88,0.125
+"16 17 19 27","Henrik Stenson Hideki Matsuyama Jason Day Louis Oosthuizen",1,0,0.88,0.125
+"16 17 19 22 27","Henrik Stenson Hideki Matsuyama Jason Day Jordan Spieth Louis Oosthuizen",1,0,0.88,0.125
+"16 17 22 27","Henrik Stenson Hideki Matsuyama Jordan Spieth Louis Oosthuizen",1,0,0.88,0.125
+"16 17 22 34","Henrik Stenson Hideki Matsuyama Jordan Spieth Rickie Fowler",1,0,0.88,0.125
+"16 19 20","Henrik Stenson Jason Day Jason Dufner",1,0,0.88,0.125
+"16 19 21","Henrik Stenson Jason Day Jimmy Walker",1,0,0.88,0.125
+"16 19 22","Henrik Stenson Jason Day Jordan Spieth",14,0,0.88,0.125
+"16 19 27","Henrik Stenson Jason Day Louis Oosthuizen",4,0,0.88,0.125
+"16 19 31","Henrik Stenson Jason Day Paul Casey",1,0,0.88,0.125
+"16 19 32","Henrik Stenson Jason Day Phil Mickelson",1,0,0.88,0.125
+"16 19 33","Henrik Stenson Jason Day Rafael Cabrera Bello",1,0,0.88,0.125
+"16 19 34","Henrik Stenson Jason Day Rickie Fowler",7,0,0.88,0.125
+"16 19 35","Henrik Stenson Jason Day Rory McIlroy",7,0,0.88,0.125
+"16 19 20 22","Henrik Stenson Jason Day Jason Dufner Jordan Spieth",1,0,0.88,0.125
+"16 19 20 35","Henrik Stenson Jason Day Jason Dufner Rory McIlroy",1,0,0.88,0.125
+"16 19 20 22 35","Henrik Stenson Jason Day Jason Dufner Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"16 19 21 34","Henrik Stenson Jason Day Jimmy Walker Rickie Fowler",1,0,0.88,0.125
+"16 19 22 27","Henrik Stenson Jason Day Jordan Spieth Louis Oosthuizen",3,0,0.88,0.125
+"16 19 22 32","Henrik Stenson Jason Day Jordan Spieth Phil Mickelson",1,0,0.88,0.125
+"16 19 22 34","Henrik Stenson Jason Day Jordan Spieth Rickie Fowler",5,0,0.88,0.125
+"16 19 22 35","Henrik Stenson Jason Day Jordan Spieth Rory McIlroy",5,0,0.88,0.125
+"16 19 22 27 32","Henrik Stenson Jason Day Jordan Spieth Louis Oosthuizen Phil Mickelson",1,0,0.88,0.125
+"16 19 22 27 35","Henrik Stenson Jason Day Jordan Spieth Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"16 19 22 34 35","Henrik Stenson Jason Day Jordan Spieth Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"16 19 27 31","Henrik Stenson Jason Day Louis Oosthuizen Paul Casey",1,0,0.88,0.125
+"16 19 27 32","Henrik Stenson Jason Day Louis Oosthuizen Phil Mickelson",1,0,0.88,0.125
+"16 19 27 33","Henrik Stenson Jason Day Louis Oosthuizen Rafael Cabrera Bello",1,0,0.88,0.125
+"16 19 27 35","Henrik Stenson Jason Day Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"16 19 27 31 33","Henrik Stenson Jason Day Louis Oosthuizen Paul Casey Rafael Cabrera Bello",1,0,0.88,0.125
+"16 19 31 33","Henrik Stenson Jason Day Paul Casey Rafael Cabrera Bello",1,0,0.88,0.125
+"16 19 34 35","Henrik Stenson Jason Day Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"16 20 22","Henrik Stenson Jason Dufner Jordan Spieth",1,0,0.88,0.125
+"16 20 35","Henrik Stenson Jason Dufner Rory McIlroy",1,0,0.88,0.125
+"16 20 22 35","Henrik Stenson Jason Dufner Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"16 21 34","Henrik Stenson Jimmy Walker Rickie Fowler",1,0,0.88,0.125
+"16 22 27","Henrik Stenson Jordan Spieth Louis Oosthuizen",4,0,0.88,0.125
+"16 22 32","Henrik Stenson Jordan Spieth Phil Mickelson",2,0,0.88,0.125
+"16 22 33","Henrik Stenson Jordan Spieth Rafael Cabrera Bello",1,0,0.88,0.125
+"16 22 34","Henrik Stenson Jordan Spieth Rickie Fowler",6,0,0.88,0.125
+"16 22 35","Henrik Stenson Jordan Spieth Rory McIlroy",5,0,0.88,0.125
+"16 22 27 32","Henrik Stenson Jordan Spieth Louis Oosthuizen Phil Mickelson",1,0,0.88,0.125
+"16 22 27 35","Henrik Stenson Jordan Spieth Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"16 22 34 35","Henrik Stenson Jordan Spieth Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"16 23 32","Henrik Stenson Justin Rose Phil Mickelson",1,0,0.88,0.125
+"16 23 34","Henrik Stenson Justin Rose Rickie Fowler",1,0,0.88,0.125
+"16 23 35","Henrik Stenson Justin Rose Rory McIlroy",1,0,0.88,0.125
+"16 23 32 35","Henrik Stenson Justin Rose Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"16 24 34","Henrik Stenson Justin Thomas Rickie Fowler",1,0,0.88,0.125
+"16 24 35","Henrik Stenson Justin Thomas Rory McIlroy",1,0,0.88,0.125
+"16 24 34 35","Henrik Stenson Justin Thomas Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"16 27 31","Henrik Stenson Louis Oosthuizen Paul Casey",1,0,0.88,0.125
+"16 27 32","Henrik Stenson Louis Oosthuizen Phil Mickelson",1,0,0.88,0.125
+"16 27 33","Henrik Stenson Louis Oosthuizen Rafael Cabrera Bello",1,0,0.88,0.125
+"16 27 35","Henrik Stenson Louis Oosthuizen Rory McIlroy",3,0,0.88,0.125
+"16 27 31 33","Henrik Stenson Louis Oosthuizen Paul Casey Rafael Cabrera Bello",1,0,0.88,0.125
+"16 31 33","Henrik Stenson Paul Casey Rafael Cabrera Bello",1,0,0.88,0.125
+"16 32 35","Henrik Stenson Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"16 34 35","Henrik Stenson Rickie Fowler Rory McIlroy",2,0,0.88,0.125
+"17 19","Hideki Matsuyama Jason Day",4,0,0.88,0.125
+"17 22","Hideki Matsuyama Jordan Spieth",4,0,0.88,0.125
+"17 27","Hideki Matsuyama Louis Oosthuizen",1,0,0.88,0.125
+"17 32","Hideki Matsuyama Phil Mickelson",1,0,0.88,0.125
+"17 34","Hideki Matsuyama Rickie Fowler",3,0,0.88,0.125
+"17 35","Hideki Matsuyama Rory McIlroy",1,0,0.88,0.125
+"17 40","Hideki Matsuyama Zach Johnson",2,0,0.88,0.125
+"17 19 22","Hideki Matsuyama Jason Day Jordan Spieth",2,0,0.88,0.125
+"17 19 27","Hideki Matsuyama Jason Day Louis Oosthuizen",1,0,0.88,0.125
+"17 19 34","Hideki Matsuyama Jason Day Rickie Fowler",1,0,0.88,0.125
+"17 19 40","Hideki Matsuyama Jason Day Zach Johnson",2,0,0.88,0.125
+"17 19 22 27","Hideki Matsuyama Jason Day Jordan Spieth Louis Oosthuizen",1,0,0.88,0.125
+"17 19 22 40","Hideki Matsuyama Jason Day Jordan Spieth Zach Johnson",1,0,0.88,0.125
+"17 22 27","Hideki Matsuyama Jordan Spieth Louis Oosthuizen",1,0,0.88,0.125
+"17 22 34","Hideki Matsuyama Jordan Spieth Rickie Fowler",1,0,0.88,0.125
+"17 22 35","Hideki Matsuyama Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"17 22 40","Hideki Matsuyama Jordan Spieth Zach Johnson",1,0,0.88,0.125
+"17 32 34","Hideki Matsuyama Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"18 23","J.B. Holmes Justin Rose",1,0,0.88,0.125
+"18 36","J.B. Holmes Russell Knox",1,0,0.88,0.125
+"18 38","J.B. Holmes Troy Merritt",1,0,0.88,0.125
+"18 23 36","J.B. Holmes Justin Rose Russell Knox",1,0,0.88,0.125
+"18 23 38","J.B. Holmes Justin Rose Troy Merritt",1,0,0.88,0.125
+"18 23 36 38","J.B. Holmes Justin Rose Russell Knox Troy Merritt",1,0,0.88,0.125
+"18 36 38","J.B. Holmes Russell Knox Troy Merritt",1,0,0.88,0.125
+"19 20","Jason Day Jason Dufner",2,0,0.88,0.125
+"19 21","Jason Day Jimmy Walker",3,0,0.88,0.125
+"19 22","Jason Day Jordan Spieth",74,0,0.88,0.125
+"19 23","Jason Day Justin Rose",16,0,0.88,0.125
+"19 26","Jason Day Kevin Kisner",1,0,0.88,0.125
+"19 27","Jason Day Louis Oosthuizen",13,0,0.88,0.125
+"19 28","Jason Day Marc Leishman",2,0,0.88,0.125
+"19 29","Jason Day Matt Kuchar",2,0,0.88,0.125
+"19 30","Jason Day Patrick Reed",2,0,0.88,0.125
+"19 31","Jason Day Paul Casey",2,0,0.88,0.125
+"19 32","Jason Day Phil Mickelson",33,0,0.88,0.125
+"19 33","Jason Day Rafael Cabrera Bello",2,0,0.88,0.125
+"19 34","Jason Day Rickie Fowler",36,0,0.88,0.125
+"19 35","Jason Day Rory McIlroy",55,0,0.88,0.125
+"19 37","Jason Day Sergio Garcia",3,0,0.88,0.125
+"19 40","Jason Day Zach Johnson",5,0,0.88,0.125
+"19 20 22","Jason Day Jason Dufner Jordan Spieth",1,0,0.88,0.125
+"19 20 34","Jason Day Jason Dufner Rickie Fowler",1,0,0.88,0.125
+"19 20 35","Jason Day Jason Dufner Rory McIlroy",1,0,0.88,0.125
+"19 20 37","Jason Day Jason Dufner Sergio Garcia",1,0,0.88,0.125
+"19 20 40","Jason Day Jason Dufner Zach Johnson",1,0,0.88,0.125
+"19 20 22 35","Jason Day Jason Dufner Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"19 20 34 37","Jason Day Jason Dufner Rickie Fowler Sergio Garcia",1,0,0.88,0.125
+"19 20 34 40","Jason Day Jason Dufner Rickie Fowler Zach Johnson",1,0,0.88,0.125
+"19 20 34 37 40","Jason Day Jason Dufner Rickie Fowler Sergio Garcia Zach Johnson",1,0,0.88,0.125
+"19 20 37 40","Jason Day Jason Dufner Sergio Garcia Zach Johnson",1,0,0.88,0.125
+"19 21 22","Jason Day Jimmy Walker Jordan Spieth",2,0,0.88,0.125
+"19 21 29","Jason Day Jimmy Walker Matt Kuchar",1,0,0.88,0.125
+"19 21 34","Jason Day Jimmy Walker Rickie Fowler",1,0,0.88,0.125
+"19 21 22 29","Jason Day Jimmy Walker Jordan Spieth Matt Kuchar",1,0,0.88,0.125
+"19 22 23","Jason Day Jordan Spieth Justin Rose",11,0,0.88,0.125
+"19 22 26","Jason Day Jordan Spieth Kevin Kisner",1,0,0.88,0.125
+"19 22 27","Jason Day Jordan Spieth Louis Oosthuizen",7,0,0.88,0.125
+"19 22 28","Jason Day Jordan Spieth Marc Leishman",1,0,0.88,0.125
+"19 22 29","Jason Day Jordan Spieth Matt Kuchar",2,0,0.88,0.125
+"19 22 30","Jason Day Jordan Spieth Patrick Reed",1,0,0.88,0.125
+"19 22 32","Jason Day Jordan Spieth Phil Mickelson",23,0,0.88,0.125
+"19 22 33","Jason Day Jordan Spieth Rafael Cabrera Bello",1,0,0.88,0.125
+"19 22 34","Jason Day Jordan Spieth Rickie Fowler",18,0,0.88,0.125
+"19 22 35","Jason Day Jordan Spieth Rory McIlroy",38,0,0.88,0.125
+"19 22 37","Jason Day Jordan Spieth Sergio Garcia",2,0,0.88,0.125
+"19 22 40","Jason Day Jordan Spieth Zach Johnson",3,0,0.88,0.125
+"19 22 23 27","Jason Day Jordan Spieth Justin Rose Louis Oosthuizen",2,0,0.88,0.125
+"19 22 23 29","Jason Day Jordan Spieth Justin Rose Matt Kuchar",1,0,0.88,0.125
+"19 22 23 30","Jason Day Jordan Spieth Justin Rose Patrick Reed",1,0,0.88,0.125
+"19 22 23 32","Jason Day Jordan Spieth Justin Rose Phil Mickelson",3,0,0.88,0.125
+"19 22 23 34","Jason Day Jordan Spieth Justin Rose Rickie Fowler",1,0,0.88,0.125
+"19 22 23 35","Jason Day Jordan Spieth Justin Rose Rory McIlroy",4,0,0.88,0.125
+"19 22 23 37","Jason Day Jordan Spieth Justin Rose Sergio Garcia",1,0,0.88,0.125
+"19 22 23 27 35","Jason Day Jordan Spieth Justin Rose Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"19 22 23 29 32","Jason Day Jordan Spieth Justin Rose Matt Kuchar Phil Mickelson",1,0,0.88,0.125
+"19 22 23 32 35","Jason Day Jordan Spieth Justin Rose Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"19 22 23 34 35","Jason Day Jordan Spieth Justin Rose Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"19 22 26 35","Jason Day Jordan Spieth Kevin Kisner Rory McIlroy",1,0,0.88,0.125
+"19 22 27 32","Jason Day Jordan Spieth Louis Oosthuizen Phil Mickelson",1,0,0.88,0.125
+"19 22 27 34","Jason Day Jordan Spieth Louis Oosthuizen Rickie Fowler",1,0,0.88,0.125
+"19 22 27 35","Jason Day Jordan Spieth Louis Oosthuizen Rory McIlroy",3,0,0.88,0.125
+"19 22 29 32","Jason Day Jordan Spieth Matt Kuchar Phil Mickelson",1,0,0.88,0.125
+"19 22 32 34","Jason Day Jordan Spieth Phil Mickelson Rickie Fowler",5,0,0.88,0.125
+"19 22 32 35","Jason Day Jordan Spieth Phil Mickelson Rory McIlroy",9,0,0.88,0.125
+"19 22 32 37","Jason Day Jordan Spieth Phil Mickelson Sergio Garcia",1,0,0.88,0.125
+"19 22 32 40","Jason Day Jordan Spieth Phil Mickelson Zach Johnson",1,0,0.88,0.125
+"19 22 32 34 35","Jason Day Jordan Spieth Phil Mickelson Rickie Fowler Rory McIlroy",2,0,0.88,0.125
+"19 22 33 35","Jason Day Jordan Spieth Rafael Cabrera Bello Rory McIlroy",1,0,0.88,0.125
+"19 22 34 35","Jason Day Jordan Spieth Rickie Fowler Rory McIlroy",9,0,0.88,0.125
+"19 22 35 40","Jason Day Jordan Spieth Rory McIlroy Zach Johnson",1,0,0.88,0.125
+"19 23 27","Jason Day Justin Rose Louis Oosthuizen",5,0,0.88,0.125
+"19 23 29","Jason Day Justin Rose Matt Kuchar",1,0,0.88,0.125
+"19 23 30","Jason Day Justin Rose Patrick Reed",1,0,0.88,0.125
+"19 23 32","Jason Day Justin Rose Phil Mickelson",5,0,0.88,0.125
+"19 23 34","Jason Day Justin Rose Rickie Fowler",3,0,0.88,0.125
+"19 23 35","Jason Day Justin Rose Rory McIlroy",8,0,0.88,0.125
+"19 23 37","Jason Day Justin Rose Sergio Garcia",1,0,0.88,0.125
+"19 23 27 32","Jason Day Justin Rose Louis Oosthuizen Phil Mickelson",1,0,0.88,0.125
+"19 23 27 34","Jason Day Justin Rose Louis Oosthuizen Rickie Fowler",1,0,0.88,0.125
+"19 23 27 35","Jason Day Justin Rose Louis Oosthuizen Rory McIlroy",4,0,0.88,0.125
+"19 23 27 32 35","Jason Day Justin Rose Louis Oosthuizen Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"19 23 27 34 35","Jason Day Justin Rose Louis Oosthuizen Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"19 23 29 32","Jason Day Justin Rose Matt Kuchar Phil Mickelson",1,0,0.88,0.125
+"19 23 32 35","Jason Day Justin Rose Phil Mickelson Rory McIlroy",3,0,0.88,0.125
+"19 23 34 35","Jason Day Justin Rose Rickie Fowler Rory McIlroy",2,0,0.88,0.125
+"19 26 35","Jason Day Kevin Kisner Rory McIlroy",1,0,0.88,0.125
+"19 27 31","Jason Day Louis Oosthuizen Paul Casey",1,0,0.88,0.125
+"19 27 32","Jason Day Louis Oosthuizen Phil Mickelson",2,0,0.88,0.125
+"19 27 33","Jason Day Louis Oosthuizen Rafael Cabrera Bello",1,0,0.88,0.125
+"19 27 34","Jason Day Louis Oosthuizen Rickie Fowler",3,0,0.88,0.125
+"19 27 35","Jason Day Louis Oosthuizen Rory McIlroy",7,0,0.88,0.125
+"19 27 31 33","Jason Day Louis Oosthuizen Paul Casey Rafael Cabrera Bello",1,0,0.88,0.125
+"19 27 32 35","Jason Day Louis Oosthuizen Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"19 27 34 35","Jason Day Louis Oosthuizen Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"19 28 32","Jason Day Marc Leishman Phil Mickelson",1,0,0.88,0.125
+"19 28 35","Jason Day Marc Leishman Rory McIlroy",1,0,0.88,0.125
+"19 28 32 35","Jason Day Marc Leishman Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"19 29 32","Jason Day Matt Kuchar Phil Mickelson",1,0,0.88,0.125
+"19 30 34","Jason Day Patrick Reed Rickie Fowler",1,0,0.88,0.125
+"19 30 35","Jason Day Patrick Reed Rory McIlroy",1,0,0.88,0.125
+"19 30 34 35","Jason Day Patrick Reed Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"19 31 33","Jason Day Paul Casey Rafael Cabrera Bello",1,0,0.88,0.125
+"19 31 35","Jason Day Paul Casey Rory McIlroy",1,0,0.88,0.125
+"19 32 34","Jason Day Phil Mickelson Rickie Fowler",12,0,0.88,0.125
+"19 32 35","Jason Day Phil Mickelson Rory McIlroy",15,0,0.88,0.125
+"19 32 37","Jason Day Phil Mickelson Sergio Garcia",1,0,0.88,0.125
+"19 32 40","Jason Day Phil Mickelson Zach Johnson",1,0,0.88,0.125
+"19 32 34 35","Jason Day Phil Mickelson Rickie Fowler Rory McIlroy",5,0,0.88,0.125
+"19 33 35","Jason Day Rafael Cabrera Bello Rory McIlroy",1,0,0.88,0.125
+"19 34 35","Jason Day Rickie Fowler Rory McIlroy",17,0,0.88,0.125
+"19 34 37","Jason Day Rickie Fowler Sergio Garcia",1,0,0.88,0.125
+"19 34 40","Jason Day Rickie Fowler Zach Johnson",1,0,0.88,0.125
+"19 34 37 40","Jason Day Rickie Fowler Sergio Garcia Zach Johnson",1,0,0.88,0.125
+"19 35 40","Jason Day Rory McIlroy Zach Johnson",1,0,0.88,0.125
+"19 37 40","Jason Day Sergio Garcia Zach Johnson",1,0,0.88,0.125
+"20 22","Jason Dufner Jordan Spieth",1,0,0.88,0.125
+"20 34","Jason Dufner Rickie Fowler",1,0,0.88,0.125
+"20 35","Jason Dufner Rory McIlroy",1,0,0.88,0.125
+"20 37","Jason Dufner Sergio Garcia",1,0,0.88,0.125
+"20 40","Jason Dufner Zach Johnson",1,0,0.88,0.125
+"20 22 35","Jason Dufner Jordan Spieth Rory McIlroy",1,0,0.88,0.125
+"20 34 37","Jason Dufner Rickie Fowler Sergio Garcia",1,0,0.88,0.125
+"20 34 40","Jason Dufner Rickie Fowler Zach Johnson",1,0,0.88,0.125
+"20 34 37 40","Jason Dufner Rickie Fowler Sergio Garcia Zach Johnson",1,0,0.88,0.125
+"20 37 40","Jason Dufner Sergio Garcia Zach Johnson",1,0,0.88,0.125
+"21 22","Jimmy Walker Jordan Spieth",4,0,0.88,0.125
+"21 29","Jimmy Walker Matt Kuchar",1,0,0.88,0.125
+"21 34","Jimmy Walker Rickie Fowler",2,0,0.88,0.125
+"21 22 29","Jimmy Walker Jordan Spieth Matt Kuchar",1,0,0.88,0.125
+"21 22 34","Jimmy Walker Jordan Spieth Rickie Fowler",1,0,0.88,0.125
+"22 23","Jordan Spieth Justin Rose",11,0,0.88,0.125
+"22 26","Jordan Spieth Kevin Kisner",1,0,0.88,0.125
+"22 27","Jordan Spieth Louis Oosthuizen",8,0,0.88,0.125
+"22 28","Jordan Spieth Marc Leishman",1,0,0.88,0.125
+"22 29","Jordan Spieth Matt Kuchar",3,0,0.88,0.125
+"22 30","Jordan Spieth Patrick Reed",5,0,0.88,0.125
+"22 32","Jordan Spieth Phil Mickelson",26,0,0.88,0.125
+"22 33","Jordan Spieth Rafael Cabrera Bello",2,0,0.88,0.125
+"22 34","Jordan Spieth Rickie Fowler",27,0,0.88,0.125
+"22 35","Jordan Spieth Rory McIlroy",43,0,0.88,0.125
+"22 37","Jordan Spieth Sergio Garcia",2,0,0.88,0.125
+"22 40","Jordan Spieth Zach Johnson",3,0,0.88,0.125
+"22 23 27","Jordan Spieth Justin Rose Louis Oosthuizen",2,0,0.88,0.125
+"22 23 29","Jordan Spieth Justin Rose Matt Kuchar",1,0,0.88,0.125
+"22 23 30","Jordan Spieth Justin Rose Patrick Reed",1,0,0.88,0.125
+"22 23 32","Jordan Spieth Justin Rose Phil Mickelson",3,0,0.88,0.125
+"22 23 34","Jordan Spieth Justin Rose Rickie Fowler",1,0,0.88,0.125
+"22 23 35","Jordan Spieth Justin Rose Rory McIlroy",4,0,0.88,0.125
+"22 23 37","Jordan Spieth Justin Rose Sergio Garcia",1,0,0.88,0.125
+"22 23 27 35","Jordan Spieth Justin Rose Louis Oosthuizen Rory McIlroy",1,0,0.88,0.125
+"22 23 29 32","Jordan Spieth Justin Rose Matt Kuchar Phil Mickelson",1,0,0.88,0.125
+"22 23 32 35","Jordan Spieth Justin Rose Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"22 23 34 35","Jordan Spieth Justin Rose Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"22 26 35","Jordan Spieth Kevin Kisner Rory McIlroy",1,0,0.88,0.125
+"22 27 32","Jordan Spieth Louis Oosthuizen Phil Mickelson",1,0,0.88,0.125
+"22 27 34","Jordan Spieth Louis Oosthuizen Rickie Fowler",1,0,0.88,0.125
+"22 27 35","Jordan Spieth Louis Oosthuizen Rory McIlroy",3,0,0.88,0.125
+"22 29 32","Jordan Spieth Matt Kuchar Phil Mickelson",2,0,0.88,0.125
+"22 29 35","Jordan Spieth Matt Kuchar Rory McIlroy",1,0,0.88,0.125
+"22 29 32 35","Jordan Spieth Matt Kuchar Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"22 30 34","Jordan Spieth Patrick Reed Rickie Fowler",4,0,0.88,0.125
+"22 30 35","Jordan Spieth Patrick Reed Rory McIlroy",1,0,0.88,0.125
+"22 30 34 35","Jordan Spieth Patrick Reed Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"22 32 34","Jordan Spieth Phil Mickelson Rickie Fowler",6,0,0.88,0.125
+"22 32 35","Jordan Spieth Phil Mickelson Rory McIlroy",10,0,0.88,0.125
+"22 32 37","Jordan Spieth Phil Mickelson Sergio Garcia",1,0,0.88,0.125
+"22 32 40","Jordan Spieth Phil Mickelson Zach Johnson",1,0,0.88,0.125
+"22 32 34 35","Jordan Spieth Phil Mickelson Rickie Fowler Rory McIlroy",2,0,0.88,0.125
+"22 33 35","Jordan Spieth Rafael Cabrera Bello Rory McIlroy",1,0,0.88,0.125
+"22 34 35","Jordan Spieth Rickie Fowler Rory McIlroy",12,0,0.88,0.125
+"22 35 40","Jordan Spieth Rory McIlroy Zach Johnson",1,0,0.88,0.125
+"23 26","Justin Rose Kevin Kisner",1,0,0.88,0.125
+"23 27","Justin Rose Louis Oosthuizen",6,0,0.88,0.125
+"23 29","Justin Rose Matt Kuchar",2,0,0.88,0.125
+"23 30","Justin Rose Patrick Reed",1,0,0.88,0.125
+"23 32","Justin Rose Phil Mickelson",9,0,0.88,0.125
+"23 34","Justin Rose Rickie Fowler",9,0,0.88,0.125
+"23 35","Justin Rose Rory McIlroy",13,0,0.88,0.125
+"23 36","Justin Rose Russell Knox",1,0,0.88,0.125
+"23 37","Justin Rose Sergio Garcia",2,0,0.88,0.125
+"23 38","Justin Rose Troy Merritt",1,0,0.88,0.125
+"23 39","Justin Rose Vaughn Taylor",1,0,0.88,0.125
+"23 40","Justin Rose Zach Johnson",1,0,0.88,0.125
+"23 26 39","Justin Rose Kevin Kisner Vaughn Taylor",1,0,0.88,0.125
+"23 27 32","Justin Rose Louis Oosthuizen Phil Mickelson",2,0,0.88,0.125
+"23 27 34","Justin Rose Louis Oosthuizen Rickie Fowler",2,0,0.88,0.125
+"23 27 35","Justin Rose Louis Oosthuizen Rory McIlroy",4,0,0.88,0.125
+"23 27 32 34","Justin Rose Louis Oosthuizen Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"23 27 32 35","Justin Rose Louis Oosthuizen Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"23 27 34 35","Justin Rose Louis Oosthuizen Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"23 29 32","Justin Rose Matt Kuchar Phil Mickelson",2,0,0.88,0.125
+"23 29 34","Justin Rose Matt Kuchar Rickie Fowler",1,0,0.88,0.125
+"23 29 32 34","Justin Rose Matt Kuchar Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"23 32 34","Justin Rose Phil Mickelson Rickie Fowler",2,0,0.88,0.125
+"23 32 35","Justin Rose Phil Mickelson Rory McIlroy",5,0,0.88,0.125
+"23 32 37","Justin Rose Phil Mickelson Sergio Garcia",1,0,0.88,0.125
+"23 32 40","Justin Rose Phil Mickelson Zach Johnson",1,0,0.88,0.125
+"23 32 35 37","Justin Rose Phil Mickelson Rory McIlroy Sergio Garcia",1,0,0.88,0.125
+"23 32 35 40","Justin Rose Phil Mickelson Rory McIlroy Zach Johnson",1,0,0.88,0.125
+"23 32 35 37 40","Justin Rose Phil Mickelson Rory McIlroy Sergio Garcia Zach Johnson",1,0,0.88,0.125
+"23 32 37 40","Justin Rose Phil Mickelson Sergio Garcia Zach Johnson",1,0,0.88,0.125
+"23 34 35","Justin Rose Rickie Fowler Rory McIlroy",5,0,0.88,0.125
+"23 35 37","Justin Rose Rory McIlroy Sergio Garcia",1,0,0.88,0.125
+"23 35 40","Justin Rose Rory McIlroy Zach Johnson",1,0,0.88,0.125
+"23 35 37 40","Justin Rose Rory McIlroy Sergio Garcia Zach Johnson",1,0,0.88,0.125
+"23 36 38","Justin Rose Russell Knox Troy Merritt",1,0,0.88,0.125
+"23 37 40","Justin Rose Sergio Garcia Zach Johnson",1,0,0.88,0.125
+"24 34","Justin Thomas Rickie Fowler",1,0,0.88,0.125
+"24 35","Justin Thomas Rory McIlroy",1,0,0.88,0.125
+"24 34 35","Justin Thomas Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"25 34","Keegan Bradley Rickie Fowler",1,0,0.88,0.125
+"25 35","Keegan Bradley Rory McIlroy",1,0,0.88,0.125
+"25 34 35","Keegan Bradley Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"26 35","Kevin Kisner Rory McIlroy",1,0,0.88,0.125
+"26 39","Kevin Kisner Vaughn Taylor",1,0,0.88,0.125
+"27 30","Louis Oosthuizen Patrick Reed",1,0,0.88,0.125
+"27 31","Louis Oosthuizen Paul Casey",1,0,0.88,0.125
+"27 32","Louis Oosthuizen Phil Mickelson",3,0,0.88,0.125
+"27 33","Louis Oosthuizen Rafael Cabrera Bello",2,0,0.88,0.125
+"27 34","Louis Oosthuizen Rickie Fowler",4,0,0.88,0.125
+"27 35","Louis Oosthuizen Rory McIlroy",10,0,0.88,0.125
+"27 30 33","Louis Oosthuizen Patrick Reed Rafael Cabrera Bello",1,0,0.88,0.125
+"27 30 35","Louis Oosthuizen Patrick Reed Rory McIlroy",1,0,0.88,0.125
+"27 30 33 35","Louis Oosthuizen Patrick Reed Rafael Cabrera Bello Rory McIlroy",1,0,0.88,0.125
+"27 31 33","Louis Oosthuizen Paul Casey Rafael Cabrera Bello",1,0,0.88,0.125
+"27 32 34","Louis Oosthuizen Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"27 32 35","Louis Oosthuizen Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"27 33 35","Louis Oosthuizen Rafael Cabrera Bello Rory McIlroy",1,0,0.88,0.125
+"27 34 35","Louis Oosthuizen Rickie Fowler Rory McIlroy",1,0,0.88,0.125
+"28 32","Marc Leishman Phil Mickelson",1,0,0.88,0.125
+"28 35","Marc Leishman Rory McIlroy",1,0,0.88,0.125
+"28 32 35","Marc Leishman Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"29 32","Matt Kuchar Phil Mickelson",3,0,0.88,0.125
+"29 34","Matt Kuchar Rickie Fowler",1,0,0.88,0.125
+"29 35","Matt Kuchar Rory McIlroy",1,0,0.88,0.125
+"29 32 34","Matt Kuchar Phil Mickelson Rickie Fowler",1,0,0.88,0.125
+"29 32 35","Matt Kuchar Phil Mickelson Rory McIlroy",1,0,0.88,0.125
+"30 33","Patrick Reed Rafael Cabrera Bello",1,0,0.88,0.125
+"30 34","Patrick Reed Rickie Fowler",5,0,0.88,0.125
+"30 35","Patrick Reed Rory McIlroy",3,0,0.88,0.125
+"30 33 35","Patrick Reed Rafael Cabrera Bello Rory McIlroy",1,0,0.88,0.125
+"30 34 35","Patrick Reed Rickie Fowler Rory McIlroy",2,0,0.88,0.125
+"31 33","Paul Casey Rafael Cabrera Bello",1,0,0.88,0.125
+"31 35","Paul Casey Rory McIlroy",1,0,0.88,0.125
+"32 34","Phil Mickelson Rickie Fowler",16,0,0.88,0.125
+"32 35","Phil Mickelson Rory McIlroy",18,0,0.88,0.125
+"32 37","Phil Mickelson Sergio Garcia",2,0,0.88,0.125
+"32 40","Phil Mickelson Zach Johnson",2,0,0.88,0.125
+"32 34 35","Phil Mickelson Rickie Fowler Rory McIlroy",5,0,0.88,0.125
+"32 35 37","Phil Mickelson Rory McIlroy Sergio Garcia",1,0,0.88,0.125
+"32 35 40","Phil Mickelson Rory McIlroy Zach Johnson",1,0,0.88,0.125
+"32 35 37 40","Phil Mickelson Rory McIlroy Sergio Garcia Zach Johnson",1,0,0.88,0.125
+"32 37 40","Phil Mickelson Sergio Garcia Zach Johnson",1,0,0.88,0.125
+"33 35","Rafael Cabrera Bello Rory McIlroy",2,0,0.88,0.125
+"34 35","Rickie Fowler Rory McIlroy",25,0,0.88,0.125
+"34 37","Rickie Fowler Sergio Garcia",1,0,0.88,0.125
+"34 40","Rickie Fowler Zach Johnson",1,0,0.88,0.125
+"34 37 40","Rickie Fowler Sergio Garcia Zach Johnson",1,0,0.88,0.125
+"35 37","Rory McIlroy Sergio Garcia",1,0,0.88,0.125
+"35 40","Rory McIlroy Zach Johnson",2,0,0.88,0.125
+"35 37 40","Rory McIlroy Sergio Garcia Zach Johnson",1,0,0.88,0.125
+"36 38","Russell Knox Troy Merritt",1,0,0.88,0.125
+"37 40","Sergio Garcia Zach Johnson",2,0,0.88,0.125
+"","",137,0,0.88,0.125
