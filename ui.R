@@ -82,7 +82,8 @@ determine the estimated standings."),
 two tables. The first table displays the 5 golfers associated 
 with a pool entry, along with their current standings. The second table lists every combination of 
 the 5 golfers within a pool entry. In addition, it lists the number of pool entries with identical
-combinations. If the number next to a combination is 1, this means only the currently selected pool
+combinations as well as a weighted score trading off between the number of players in a combination and the number of
+combinations. If the number for a combination is 1, this means only the currently selected pool
 entry has this combination. This should help identify players groupings you need to do well
 in order to perform better in the overall pool."),
                             p('You can also restrict the Players you wish to 

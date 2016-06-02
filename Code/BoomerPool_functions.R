@@ -34,6 +34,7 @@ display_idx <- list('Keep' = c(1,2,3,7,11,15,19,23),
                     'Current Positions' = c(8,12,16,20,24),
                     'Current Strokes' = c(9,13,17,21,25)) 
 
+mult_tbl <- data.frame('num_plyr' = c(1,2,3,4,5), 'multplyr' = c(5,2.5,1.7,1.3,1))
 
 # ==============================================================================
 # Update Player Positions and Projected Winnings
@@ -278,6 +279,9 @@ simulate_trny_pos_change <- function(stroke_delta, cur_trny_pos, cur_trny_stroke
 # Compare Pool Entry Picks with other entries
 # ==============================================================================
 
+entry_name <- 'AFish'
+
+
 # Function which take an entry name and returns all combinations of players with number of identical picks
 compare_entry_combos <- function(entry_name, entries, entry_combinations){
     # Get Entry Players
@@ -299,7 +303,10 @@ compare_entry_combos <- function(entry_name, entries, entry_combinations){
         }
     }
     names(combos) <- c("Player Combinations", "Number of Entries with Combo")
-    combos <- combos[order(combos$`Number of Entries with Combo`),]
+    combos$num_plyr <- str_count(combos$`Player Combinations`, '/') + 1
+    combos <- left_join(combos, mult_tbl, by = 'num_plyr')
+    combos <- mutate(combos, Score = round(multplyr/(num_plyr + `Number of Entries with Combo`),2))
+    combos <- combos[order(combos$Score, decreasing = T),]
     combos
 }
 
