@@ -8,15 +8,41 @@
 # Set working directory accordingly
 # to run app, enter runapp() into command line
 
+
 library(shiny)
-# begin shiny UI
 
 source('./Code/BoomerPool_functions.R')
 
-shinyUI(navbarPage("Boomer's Pool - Golf Major Tracking",
-# HEAD TAB 1 - WELCOME #########################################################
+shinyUI(
 
+
+navbarPage("Boomer's Pool - Golf Major Tracking", position = 'fixed-top', collapsible = T, style = 'color:white',
+# HEAD TAB 1 - WELCOME #########################################################
                    tabPanel("Welcome",
+                        tags$head(
+                            tags$style(HTML(
+                                "
+                                .navbar-default {
+                                background-color: #0d3d0d;
+                                border-color: #0d3d0d;
+                                }
+                                .navbar-default .navbar-nav > li > a {
+                                color: white;
+                                font-size: 15px;
+                                }
+                                .navbar-default .navbar-brand {
+                                color:#ecf8ec;
+                                font-size: 20px;
+                                }
+                                body {
+                                background-color:white;
+                                color: #1a3300
+                                }"
+                            ))
+                        ),
+                        br(),
+                        br(),
+                        br(),
                         h1("2016 - Masters Edition"),
                         h3("Welcome to Boomer's Pool!"),
                         tags$hr(),
@@ -41,7 +67,10 @@ feel free to let me know so I can get them corrected.')
 
 # HEAD TAB 2 - STANDINGS #######################################################
                    
-                    tabPanel("Standings",
+                    tabPanel("Standings", 
+                            br(), 
+                            br(), 
+                            br(),
                             h3('Standings'),
                             p(strong('Pool Entry Standings '),
 "tab shows all the entries, selected players, tie breakers, and other stats. 
@@ -77,92 +106,88 @@ determine the estimated standings."),
 # HEAD TAB 3 - POOL ENTRY STATS ################################################
                    
                    tabPanel("Pool Entry Info",
-                            h3('Pool Entry Information'),
-                            p(strong('Entry Players and Combination Counts'), "tab includes
-two tables. The first table displays the 5 golfers associated 
-with a pool entry, along with their current standings. The second table lists every combination of 
-the 5 golfers within a pool entry. In addition, it lists the number of pool entries with identical
-combinations as well as a weighted score trading off between the number of players in a combination and the number of
+                            br(), 
+                            br(), 
+                            br(),
+                            h3('Pool Entry Analysis'),
+                                # Left hand side of page
+                                absolutePanel(fixed = F, width = 550, height = 'auto',
+                                    tabsetPanel(
+                                        tabPanel('Select Entry',
+                                                 wellPanel(style = 'background-color:#f4faf7',
+                                                     #br(),
+                                                     selectInput('i_entry', 'Select an Entry', entries$EntryName),
+                                                     #br(),
+                                                     actionButton('b_update_entry_stats', label = 'Get Pool Entry Info'),
+                                                     actionButton('b_optim_entry', label = 'Get Best Case'), 
+                                                     p(style = "font-size: 10px; font-style: italic", "Give the application up to 60 secs to
+optimize for the ", tags$strong('Get Best Case'), " button. If no results are displayed, it is an indication the tournament is over.
+To keep the feature working in the meantime, I've set the current THRU hole to be 36 for each golfer."),
+                                                     # Display Current and best case ranks for entry
+                                                     tags$strong(textOutput('o_cur_entry_stand')),
+                                                     tags$strong(textOutput('o_new_entry_rank')),
+                                                     br(),
+                                                     checkboxGroupInput('i_show_plyrs', 'Plyr Idx to Include in Combinations',
+                                                                        c('Player 1',
+                                                                          'Player 2',
+                                                                          'Player 3',
+                                                                          'Player 4',
+                                                                          'Player 5'),
+                                                                        inline = T,
+                                                                        selected = c('Player 1',
+                                                                                     'Player 2',
+                                                                                     'Player 3',
+                                                                                     'Player 4',
+                                                                                     'Player 5'))),
+                                                 h4('Current Entry Player Breakdown'),
+                                                 tableOutput('o_entry_players')
+                                                 ),
+                                        tabPanel('Instructions and Descriptions',
+                                            wellPanel(style = 'background-color:#f4faf7',
+                                            br(),
+                                            h4(tags$u(tags$strong('Instructions'))),
+                                            p('Using ', strong('Select an Entry,'), 
+' highlight the entry you want to inspect and click ', strong('Get Pool Entry Info'), ' or ', 
+strong('Get Best Case'), 'to display results. See information below for description of result tables. '),
+                                            p(tags$strong('Please note' ), 'if the entry selected is changed,
+the result tables will ', tags$strong('NOT'),' automatically be updated. The respective buttons must be re-clicked.'),
+                                            #br(),
+                                            h4(tags$u(tags$strong('Result Table Descriptions'))),
+                                            p(strong('Current Entry Player Breakdown'), 
+"table displays the 5 golfers associated with a pool entry, along with their current standings."),
+                                            p(strong('Entry Players and Combination Counts'), 
+"table lists every combination of the 5 golfers within a pool entry. In addition, it lists the number of 
+pool entries with identical combinations as well as a weighted score trading off between the number of 
+players in a combination and the number of
 combinations. If the number for a combination is 1, this means only the currently selected pool
 entry has this combination. This should help identify players groupings you need to do well
 in order to perform better in the overall pool."),
-                            p('You can also restrict the Players you wish to 
-include in the list of combinations by checking the ', strong('Player_idx'),' boxes on/off.'),
-                            p(strong('Best Case Scenario'), "tab shows an estimated best case finish a pool entry could get. It
+                                            p(strong('Golfer Finish for Best Case'), "table shows 
+an estimated best case finishes golfers would need to have to maximize a pool entry finsh. It
 takes all golfers' current strokes (to par) and assumes each one could potentially move 
 up to 3 strokes up/down per day for the remainder of the tournament. Using this range of movement
-for each player, it attempts to optimize the best case scenario for a given entry and returns 
-the list of position changes needed by the golfers to accomplish this. This is handy near the end of
-the tournament since it lets you see if you have a realistic chance at finishing near the top."),
-                            p('To use, click the drop down list ',
-                              strong('Select an Entry'), 
-                              ' and highlight the entry you want to inspect. 
-                              Next, click ', strong('Get Pool Entry Info.'), ' or ', 
-                              strong('Get Best Case'),' in the respective tab.'),
-                            br(),
-                            selectInput('i_entry', 'Select an Entry', entries$EntryName),
-                            br(),
-                            tabsetPanel(
-# sub tab 1 ====================================================================
-                                tabPanel('Entry Players and Combination Counts',
-                                         br(),
-                                         actionButton('b_update_entry_stats', label = 'Get Pool Entry Info'),
-                                br(),
-                                br(),
-                                textOutput('o_cur_entry_stand'),
-                                h4('Current Entry Player Breakdown'),
-                                tableOutput('o_entry_players'),
-                                checkboxGroupInput('i_show_plyrs', 'Player_Idx to Include',
-                                                   c('Player 1',
-                                                     'Player 2',
-                                                     'Player 3',
-                                                     'Player 4',
-                                                     'Player 5'),
-                                                   inline = T,
-                                                   selected = c('Player 1',
-                                                               'Player 2',
-                                                               'Player 3',
-                                                               'Player 4',
-                                                               'Player 5')),
-                                h4('Current Player Combination Breakdown'),
-                                dataTableOutput('o_entry_comb')
-                                ),
-# sub tab 2 ====================================================================
-                                tabPanel('Best Case Scenario',
-                                         br(),
-                                         p("Give the application up to 60 secs to 
-                                          optimize. If no results are displayed, it
-                                           is an indication the tournament is over. 
-                                           To keep the feature working in the meantime,
-                                           I've set the current THRU hole to be 36 for each golfer."),
-                                         actionButton('b_optim_entry', label = 'Get Best Case'),
-                                         br(),
-                                         br(),
-                                         tabsetPanel(
-    # sub-sub tab 1 ============================================================
-                                             tabPanel('Golfer Finish for Best Case',
-                                                 br(),
-                                                 p("The table generated in this tab represents
-                                                   the best case finishes the golfers would have to
-                                                   have to optimize the entry's standing in the pool."),
-                                                 textOutput('o_new_entry_rank'),
-                                                 br(),
-                                                 p('The Positions Moved value is in the direction towards
-                                                   1st place(e.g. +9 is 9 positions towards 1st).'),
-                                                 dataTableOutput('o_new_trny_ranks')
-                                             ),
-    # sub-sub tab 2 ============================================================
-                                             tabPanel('Pool Finishes for Best Case',
-                                                 br(),
-                                                 p("The table generated in this tab represents
-                                                   the resulting pool finishes from the best
-                                                   case golfer finishes."),
-                                                 br(),
-                                                 dataTableOutput('o_new_pool_ranks')
-                                             )
-                                         )
-                                )
-)
-)
+for each player, it attempts to optimize the best case scenario for a given entry. This is handy near the end of
+the tournament since it lets you see if you have a realistic chance at finishing near the top.
+The Positions Moved value is in the direction towards 1st place (e.g. +9 is 9 positions towards 1st)."),
+                                            p(strong('Pool Finishes for Best Case'), "table shows the resulting pool
+finishes associated with the best case situation for a given entry, similar to the ", strong('Standings'), "tab."))))),
+################################################################################
+                                # Right hand side of page
+                                    absolutePanel(width = 'auto', left = 600, height = '100%',
+                                        tabsetPanel(
+                                            tabPanel('Entry Players and Combination Counts',
+                                                wellPanel(style = "overflow-y:scroll; max-height: 775px; background-color:#f4faf7",
+                                                dataTableOutput('o_entry_comb')
+                                            )),
+                                            tabPanel('Golfer Finish for Best Case',
+                                                wellPanel(style = "overflow-y:scroll; max-height: 775px; background-color:#f4faf7",     
+                                                dataTableOutput('o_new_trny_ranks')
+                                            )),
+                                            tabPanel('Pool Finishes for Best Case',
+                                                wellPanel(style = "overflow-y:scroll; max-height: 775px; background-color:#f4faf7",
+                                                dataTableOutput('o_new_pool_ranks')
+                                            ))
+                                        ))
+                   )
 )
 )

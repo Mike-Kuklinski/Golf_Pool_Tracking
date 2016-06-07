@@ -10,15 +10,20 @@
 #setwd('Boomer Pool/')
 source('./Code/BoomerPool_functions.R')
 
+
 # load libraries
 library(shiny)
 # begin shiny server
+
+
+
+
 shinyServer(
     function(input, output) {
         # Button Update golfer positions
         cur_trny_pos <- reactive({
             input$b_update_golfers
-            get_trny_pos(id)
+            suppressWarnings(get_trny_pos(id))
         })
         # Button Update golfer ranks and projected winnings
         cur_trny_ranks <- reactive({
@@ -62,16 +67,19 @@ shinyServer(
             entry_players <- entries[which(entries$EntryName == input$i_entry), c(2:6)]
             # Subset golfer positions by entry golfers
             entry_player_pos <- subset(cur_trny_pos(), PLAYER_NAME %in% entry_players)
-            entry_player_pos$Player_Idx <- 1:nrow(entry_player_pos)
+            entry_player_pos$`Plyr Idx` <- 1:nrow(entry_player_pos)
             for(idx in c(3,5,6,7,8,9,11)){
                 entry_player_pos[, idx] <- as.integer(entry_player_pos[, idx]) 
             }
             entry_player_pos[,c(12,1,2,4:11)]
         })
-        # Render outlist table of golfers and respective positions for a given entry
+        # Render output table of golfers and respective positions for a given entry
         output$o_entry_players <- renderTable({
             entry_players()
-        })
+        }, 
+        include.rownames = F, 
+        options = list(autoWidth = T)
+        )
         # Button update entry's player combinations
         entry_comb_comp <- eventReactive(input$b_update_entry_stats,{
             compare_entry_combos(entry_name = input$i_entry, entries, entry_combinations)
@@ -94,7 +102,7 @@ shinyServer(
             return_comb
             },
             options = list(
-                paging = FALSE,
+                paging = F,
                 autoWidth = F)
         )
         # Render Output text showing the current position for entry
@@ -102,29 +110,29 @@ shinyServer(
             entry_idx <- which(cur_pool_ranks()[,1] == input$i_entry)
             cur_pool_ranks()[entry_idx, 'Rank']
         })
-        output$o_cur_entry_stand <- renderText({
-            paste('Current Entry Standing: ',cur_entry_stand(), sep = '')
-        })
+    
+        output$o_cur_entry_stand <- renderText(paste('Current Entry Standing is: ', cur_entry_stand(), sep = ''))
         
         #### OPTIMIZATION OUTPUTS
         
         # Button update optimization information
         entry_opt <- eventReactive(input$b_optim_entry,{
-            optimize_pool_entry(input$i_entry, id, est_bound = T)
+            suppressWarnings(optimize_pool_entry(input$i_entry, id, est_bound = T))
         })
         # Render output table of new golfer standings 
         output$o_new_trny_ranks <- renderDataTable({
             entry_opt <- entry_opt()
-            entry_opt$new_trny_ranks 
+            entry_opt$new_trny_ranks[,c(1:4)] 
         },
         options = list(
-            lengthMenu = list(c(25,50,-1), c('25','50','All')),
-            autoWidth = TRUE
-        ))
+            #lengthMenu = list(c(15,50,-1), c('15','50','All')),
+            paging = F,
+            autoWidth = F)
+        )
         # Render output table of new pool standings 
         output$o_new_pool_ranks <- renderDataTable({
             entry_opt <- entry_opt()
-            disp_vars <- sort(unlist(display_idx[c('Keep','Projected Cash', 'Ties')]))
+            disp_vars <- sort(unlist(display_idx[c('Keep','Current Positions', 'Ties')]))
             entry_opt_pool_ranks <- entry_opt$new_pool_ranks
             cur_var <- c('Total Money', 'Tie.1 Money', 'Player.1 Money', 'Player.2 Money',
                          'Player.3 Money', 'Player.4 Money', 'Player.5 Money')
@@ -136,13 +144,14 @@ shinyServer(
             entry_opt_pool_ranks <-entry_opt_pool_ranks[, disp_vars]
         },
         options = list(
-            lengthMenu = list(c(25,50,-1), c('25','50','All')),
-            autoWidth = TRUE
-        ))
+            #lengthMenu = list(c(15,50,-1), c('15','50','All')),
+            autoWidth = F,
+            paging = F)
+        )
         # Render output text of new pool entry standing 
         output$o_new_entry_rank <- renderText({
             entry_opt <- entry_opt()
-            paste('Best case finish for entry is: ', 
+            paste('Best Entry Standing is: ', 
                   as.character(entry_opt$new_entry_rank), sep = '') 
         })
 
