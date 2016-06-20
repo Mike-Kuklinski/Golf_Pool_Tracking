@@ -2,9 +2,9 @@ name: Boomer_Pool
 account: mike-kuklinski
 server: shinyapps.io
 appId: 103523
-bundleId: 479362
+bundleId: 484073
 url: https://mike-kuklinski.shinyapps.io/Boomer_Pool/
-when: 1465840694.05489
+when: 1466374194.11783
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: README.md|Data/Boomer's 2015 Masters Pool Participants.xlsx|Data/Boomer's 2016 Masters Pool Participants.xlsx|Data/payout_perc.csv|Excel/2016/Masters - Needs.xlsx|Excel/2016/Masters.xlsx|old version/ui.R|test/app.R|test/server.R|test/ui.R
+ignoredFiles: README.md|Data/Boomer's 2015 Masters Pool Participants.xlsx|Data/Boomer's 2016 Masters Pool Participants.xlsx|Data/Boomer's 2016 US Open Pool Participants.xlsx|Data/payout_perc.csv|Excel/2016/Masters - Needs.xlsx|Excel/2016/Masters.xlsx

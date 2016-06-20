@@ -4,7 +4,7 @@
 # Description: Functions to be used in the shiny app for tracking major and pool standings
 
 #setwd('~/R Scripts/Boomer Pool/')
-
+#
 # Load Libraries
 library(dplyr)
 library(plyr)
@@ -28,8 +28,10 @@ mult_tbl <- data.frame('num_plyr' = c(1,2,3,4,5), 'multplyr' = c(5,2.5,1.7,1.3,1
 #major <- 'Masters'
 #year <- 2016
 #id_num <- 2493
-#id_num <- 2241
-#payouts <- read.csv('Data/Payout.csv', header = T, stringsAsFactors = F)
+#id_num <- 2501
+#purse <- 10000000
+#payouts <- read.csv('Data/payout_perc.csv', header = T, stringsAsFactors = F)
+#payouts <<- mutate(payouts, Payout = round(Payout.Perc*purse, -2))
 #entries <- read.csv('Data/revised_entries.csv', header = T, stringsAsFactors = F)
 #entry_combinations <- read.csv('Data/entry_combinations.csv', header = T, stringsAsFactors = F)
 
@@ -84,11 +86,15 @@ get_trny_pos <- function(id_num){
         trn_ongoing <- T
         day_fin <- 0
     }
+    if("TODAY" %in% pos_header == F){
+        pos_table$TODAY <- '-'
+    }
     # Subset Table
     pos_table <- pos_table[,c('PLAYER',
                               'POS',
                               'THRU',
                               'TO.PAR',
+                              'TODAY',
                               'R1',
                               'R2',
                               'R3',
@@ -98,7 +104,8 @@ get_trny_pos <- function(id_num){
     names(pos_table) <- c('Player', 
                           'Position', 
                           'THRU', 
-                          'To Par', 
+                          'To Par',
+                          'Today',
                           'R1', 
                           'R2', 
                           'R3', 
@@ -113,9 +120,9 @@ get_trny_pos <- function(id_num){
         for(idx in 1:nrow(pos_table)){
             rnd_chk <- pos_table[idx, c('To Par', 'THRU', 'R1', 'R2', 'R3', 'R4')]
             cur_rnd <- rnd_chk[,'THRU']
-            CUT_chk <- ('CUT' %in% rnd_chk[,c('To Par', 'THRU')] || 'WD' %in% rnd_chk[,'THRU'])
+            CUT_chk <- ('CUT' %in% rnd_chk[,c('To Par', 'THRU')] || 'WD' %in% rnd_chk[,'THRU'] || 'DQ' %in% rnd_chk[,'THRU'])
             # Check if current round complete
-            if(grepl("F|WD|AM|PM|CUT", cur_rnd)){cur_rnd <- 0}
+            if(grepl("F|WD|AM|PM|DQ|CUT", cur_rnd)){cur_rnd <- 0}
             Round_lnth <- length(grep('[0-9]', rnd_chk[,c(3:ncol(rnd_chk))]))
             aggr_fin <- Round_lnth*18 + as.integer(cur_rnd)
             if(Round_lnth*18 == aggr_fin){
@@ -134,6 +141,7 @@ get_trny_pos <- function(id_num){
                               'Sort Pos', 
                               'Day_THRU',
                               'To Par',
+                              'Today',
                               'R1',
                               'R2',
                               'R3',
@@ -142,7 +150,6 @@ get_trny_pos <- function(id_num){
                               'Total')]
     pos_table
 }
-
 
 
 # Function to calculate projected winnings based on positions, including ties
@@ -178,6 +185,7 @@ get_trny_pos_money <- function(position_list, payout){
 # Takes a list of entries and aggregates the project winnings for the players
 update_pool_ranks <- function(trny_ranks, pool_entries){
     # Join in Project Money for each player
+    fp_str <- as.numeric(total_stroke) + min(as.numeric(gsub('[[:alpha:]]','0', trny_ranks$`To Par`)))
     trny_ranks <- trny_ranks[,c("Player", "Position", "To Par", "proj_cash")]
     pool_ranks <- left_join(pool_entries, trny_ranks, by = c("Player1" = "Player"))
     pool_ranks <- hid_update_names(pool_ranks, 1)
@@ -201,9 +209,11 @@ update_pool_ranks <- function(trny_ranks, pool_entries){
                              Plyr5_proj_cash)
     # Adjust tiebreaker to be a normalized decimal
     
-    pool_ranks$Entry_Rank <- rank(-apply(X = pool_ranks[,c('Total_proj_cash', 'PlyrTB_proj_cash')],
+    pool_ranks$Entry_Rank <- rank(-apply(X = pool_ranks[,c('Total_proj_cash', 'PlyrTB_proj_cash', 'TieBreak2')],
                                          MARGIN = 1, 
-                                         FUN = function(r){r[1] + adj_TB(r[2], 10)}), 
+                                         FUN = function(r){
+                                             r[1] + adj_TB(r[2], 7) + adj_TB((99.0-abs(r[3]-fp_str)), 9)
+                                             }), 
                                   ties.method = 'min')
     # Re-order pool standings
     pool_ranks <- pool_ranks[order(pool_ranks$Entry_Rank),]
@@ -259,9 +269,14 @@ hid_update_names <- function(df, pnum){
 
 # Function which takes a number and creates a decimal value of length n
 adj_TB <- function(TB_num, n){
-    as.numeric(paste('.', paste(rep(0, n-nchar(TB_num)), collapse = ''), 
-                     TB_num, 
-                     sep = ''))
+    if(TB_num < 0){
+        return <- 0
+    }else{
+        return <- as.numeric(paste('.', paste(rep(0, n-nchar(TB_num)), collapse = ''), 
+                      TB_num, 
+                         sep = ''))
+    }
+    return
 }
 
 # ==============================================================================
@@ -278,8 +293,8 @@ optimize_pool_entry <- function(entry_name, id_num, lb = 3, ub = 3, est_bound = 
     stroke_delta <- rep(0, length(cur_trny_strokes))
     # Determine upper and low bounds based on holes through
     if(est_bound){
-        lower <- -round((lb/18) * (72 - cur_trny_pos$THRU),0)
-        upper <- round((ub/18) * (72 - cur_trny_pos$THRU),0)
+        lower <- -ceiling((lb/18) * (72 - as.integer(cur_trny_pos$THRU)))
+        upper <- ceiling((ub/18) * (72 - as.integer(cur_trny_pos$THRU)))
     }else{
         lower <- rep(-lb,length(stroke_delta))
         upper <- rep(ub,length(stroke_delta))
@@ -289,43 +304,46 @@ optimize_pool_entry <- function(entry_name, id_num, lb = 3, ub = 3, est_bound = 
         message('Tournament Complete, nothing returned')
         optim_list <- NULL
     }else{
-        optim_info <- optimx(stroke_delta, 
+        keep_idx <- which(lower != 0)
+        optim_info <- optimx(stroke_delta[keep_idx], 
                              simulate_pool_change, 
                              cur_trny_pos = cur_trny_pos,
                              cur_trny_strokes = cur_trny_strokes, 
                              entry_name = entry_name,
+                             keep_idx = keep_idx,
                              method = 'nmkb', 
-                             lower = lower,
-                             upper = upper)
+                             lower = lower[keep_idx],
+                             upper = upper[keep_idx])
         # Record best rank
         best_optim1 <- data.frame(optim_info)
         best_rank1 <- best_optim1$value
         # Rerun optimization to see if better result can be found
-        new_strokes <- as.integer(round(best_optim1[, c(1:length(stroke_delta))]))
-        lower <- lower - new_strokes
-        upper <- upper - new_strokes
+        new_strokes <- as.integer(round(best_optim1[, c(1:length(keep_idx))]))
+        lower[keep_idx] <- lower[keep_idx] - new_strokes
+        upper[keep_idx] <- upper[keep_idx] - new_strokes
         new_trny_ranks <- simulate_trny_pos_change(new_strokes, cur_trny_pos, cur_trny_strokes)
         new_trny_ranks <- new_trny_ranks[, names(cur_trny_pos)]
         new_trny_ranks$Position <- as.factor(new_trny_ranks$Position)
-        optim_info2 <- optimx(stroke_delta, 
+        optim_info2 <- optimx(stroke_delta[keep_idx], 
                              simulate_pool_change, 
                              cur_trny_pos = new_trny_ranks,
                              cur_trny_strokes = new_trny_ranks$`To Par`, 
                              entry_name = entry_name,
+                             keep_idx = keep_idx,
                              method = c('spg', 'nmkb'),
-                             lower = lower,
-                             upper = upper)
+                             lower = lower[keep_idx],
+                             upper = upper[keep_idx])
         # Record best rank
         best_optim2 <- data.frame(optim_info2)
         best_rank_idx2 <- which(best_optim2$value == min(best_optim2$value))[1]
         best_rank2 <- best_optim2$value[best_rank_idx2]
         # Compare ranks and take the optimal
         if(best_rank2 < best_rank1){
-            new_strokes <- new_strokes + as.integer(round(best_optim2[best_rank_idx2, c(1:length(stroke_delta))]))
+            new_strokes <- new_strokes + as.integer(round(best_optim2[best_rank_idx2, c(1:length(keep_idx))]))
             optim_info <- optim_info2
         }
         # Run optimal case and return player positions and pool rankings
-        new_trny_ranks <- simulate_trny_pos_change(new_strokes, cur_trny_pos, cur_trny_strokes)
+        new_trny_ranks <- simulate_trny_pos_change(new_strokes, cur_trny_pos, cur_trny_strokes, keep_idx)
         new_pool_ranks <- update_pool_ranks(new_trny_ranks, entries)
         new_trny_ranks$Pos_Moved <- new_trny_ranks$`Sort Pos` - new_trny_ranks$Position
         new_trny_ranks <- new_trny_ranks[,c('Player', 
@@ -335,7 +353,7 @@ optimize_pool_entry <- function(entry_name, id_num, lb = 3, ub = 3, est_bound = 
                                             'proj_cash')]
         names(new_trny_ranks) <- c('PLAYER NAME', 'Best Case Position', 'Positions Moved', 'Current Position', 'Best Case Cash')
         new_trny_ranks <- new_trny_ranks[order(new_trny_ranks$`Best Case Position`),]
-        new_entry_rank <- simulate_pool_change(new_strokes, cur_trny_pos, cur_trny_strokes, entry_name)
+        new_entry_rank <- simulate_pool_change(new_strokes, cur_trny_pos, cur_trny_strokes, entry_name, keep_idx)
         optim_list <- list(new_strokes = new_strokes, 
              new_trny_ranks = new_trny_ranks,
              new_pool_ranks = new_pool_ranks,
@@ -347,10 +365,10 @@ optimize_pool_entry <- function(entry_name, id_num, lb = 3, ub = 3, est_bound = 
 
 #=========================FUNCTION TO BE OPTIMIZED==============================
 # Function which takes a stroke delta and determines its affect on pool entry's rank
-simulate_pool_change <- function(stroke_delta, cur_trny_pos, cur_trny_strokes, entry_name){
+simulate_pool_change <- function(stroke_delta, cur_trny_pos, cur_trny_strokes, entry_name, keep_idx = 1:length(stroke_delta)){
     # Get revised standings/winnings for player based on stroke delta
     stroke_delta <- ceiling(stroke_delta)
-    temp_trny_ranks <- simulate_trny_pos_change(stroke_delta, cur_trny_pos, cur_trny_strokes)
+    temp_trny_ranks <- simulate_trny_pos_change(stroke_delta, cur_trny_pos, cur_trny_strokes, keep_idx)
     temp_pool_ranks <- update_pool_ranks(temp_trny_ranks, entries)
     entry_pool_rank <- temp_pool_ranks$Rank[which(temp_pool_ranks$Entry == entry_name)]
     entry_pool_rank
@@ -360,9 +378,10 @@ simulate_pool_change <- function(stroke_delta, cur_trny_pos, cur_trny_strokes, e
 
 # Function which takes a list of stroke deltas and return update position list
 # with new projected winnings
-simulate_trny_pos_change <- function(stroke_delta, cur_trny_pos, cur_trny_strokes){
+simulate_trny_pos_change <- function(stroke_delta, cur_trny_pos, cur_trny_strokes, keep_idx = 1:length(stroke_delta)){
     # Change player strokes and determine new ranking
-    new_strokes <- cur_trny_strokes + stroke_delta
+    new_strokes <- cur_trny_strokes
+    new_strokes[keep_idx] <- new_strokes[keep_idx] + stroke_delta
     # Prevent two first places
     first_place <- which(new_strokes == min(new_strokes))
     if(length(first_place) > 1){
@@ -411,6 +430,7 @@ compare_entry_combos <- function(entry_name, entries, entry_combinations){
     combos <- left_join(combos, mult_tbl, by = 'num_plyr')
     combos <- mutate(combos, Score = round(multplyr/(num_plyr + `Number of Entries with Combo`),2))
     combos <- combos[order(combos$Score, decreasing = T),]
+    names(combos) <- c('Player Combinations', '# Identical Combos', '# Players','Multiplyer', 'Score')
     combos
 }
 

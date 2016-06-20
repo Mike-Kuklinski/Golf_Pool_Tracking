@@ -26,6 +26,7 @@ major <<- ids$major
 low_bnd <<- as.integer(ids$low_bnd)
 up_bnd <<- as.integer(ids$up_bnd)
 purse <<- as.integer(ids$purse)
+total_stroke <<- 280
 
 # Load Pool Entries, Id, Combinations, etc. from google sheets
 entries <<- data.frame(gs_read_csv(gs_entries, ws = 'entries', verbose = F))
@@ -45,36 +46,40 @@ entry_combinations <<- data.frame(gs_read_csv(gs_entries, ws = 'entry combinatio
 
 # Start shiny user interface
 shinyUI(
+
 navbarPage("Boomer's Pool - Golf Major Tracking", 
-           position = 'fixed-top', 
-           collapsible = T, 
-           style = 'color:white',
+   position = 'fixed-top', 
+   collapsible = T, 
+   style = 'color:white',
+   
+
 
 # ##############################################################################
 # TAB 1 - WELCOME
 # ##############################################################################
 
-    tabPanel("Welcome",
+    tabPanel("Welcome", 
     # Set Color scheme for the league
         tags$head(
+            includeScript("google-analytics.js"),
             tags$style(HTML(
-            "
-            .navbar-default {
-            background-color: #0d3d0d;
-            border-color: #0d3d0d;
-            }
-            .navbar-default .navbar-nav > li > a {
-            color: white;
-            font-size: 15px;
-            }
-            .navbar-default .navbar-brand {
-            color:#ecf8ec;
-            font-size: 20px;
-            }
-            body {
-            background-color:white;
-            color: #1a3300
-            }"
+                "
+                .navbar-default {
+                background-color: #0d3d0d;
+                border-color: #0d3d0d;
+                }
+                .navbar-default .navbar-nav > li > a {
+                color: white;
+                font-size: 15px;
+                }
+                .navbar-default .navbar-brand {
+                color:#ecf8ec;
+                font-size: 20px;
+                }
+                body {
+                background-color:white;
+                color: #1a3300
+                }"
             ))
         ),
         br(),
@@ -109,7 +114,8 @@ any glitches occuring, please feel free to let me know so I can get them correct
 # TAB 2 - STANDINGS 
 # ##############################################################################
 
-    tabPanel("Standings", 
+    tabPanel("Standings",
+                
         br(), 
         br(), 
         br(),
@@ -317,7 +323,7 @@ similar to the ", strong('Standings'), "tab.")
         br(),
         h3('Maintenance'),
         p('This page is intended for updating the entry list, payout, and tournament 
-information. Only authorize users are allowed.'),
+information. Only authorized users are allowed.'),
         # Request username and password
         textInput('i_user_n', 'Enter User Name'),
         textInput('i_user_pw', 'Enter User Password'),

@@ -95,6 +95,7 @@ shinyServer(
                               'Sort Pos',
                               'Day_THRU',
                               'To Par',
+                              'Today',
                               'R1',
                               'R2',
                               'R3',
@@ -182,6 +183,7 @@ shinyServer(
                                 'Position', 
                                 'Day Thru', 
                                 'To Par',
+                                'Today',
                                 'R1',
                                 'R2',
                                 'R3',
@@ -243,13 +245,27 @@ shinyServer(
                                                  ub = up_bnd, 
                                                  est_bound = T))
         })
+        
+        observeEvent(input$i_entry, {
+            show_best <<- FALSE
+        })
+        observeEvent(input$b_optim_entry, {
+            show_best <<- TRUE
+        })
+        
         # Render output table of new golfer standings 
         output$o_new_trny_ranks <- renderDataTable({
+            input$i_entry
             entry_opt <- entry_opt()
-            entry_opt$new_trny_ranks[,c('PLAYER NAME',
-                                        'Best Case Position',
-                                        'Positions Moved',
-                                        'Current Position')] 
+            if(show_best == T){
+                return_t <- entry_opt$new_trny_ranks[,c('PLAYER NAME',
+                                                        'Best Case Position',
+                                                        'Positions Moved',
+                                                        'Current Position')]
+            }else{
+                return_t <- data.frame('message' = 'New entry, re-run best case.')
+            }
+            return_t
             },
             options = list(
                 paging = F,
@@ -262,18 +278,23 @@ shinyServer(
 
         # Render output table of new pool standings 
         output$o_new_pool_ranks <- renderDataTable({
+            input$i_entry
             entry_opt <- entry_opt()
-            disp_vars <- sort(unlist(display_idx[c('Players','Current Positions', 'Ties')]))
-            disp_vars <- c(display_idx$Keep, disp_vars)
-            entry_opt_pool_ranks <- entry_opt$new_pool_ranks
-            cur_var <- c('Total Money', 'Tie.1 Money', 'Player.1 Money', 'Player.2 Money',
-                         'Player.3 Money', 'Player.4 Money', 'Player.5 Money')
-            # Adjust Pool Rank Winnings to Currency Format
-            for(idx in seq_along(cur_var)){
-                entry_opt_pool_ranks[,cur_var[idx]] <- prettyNum(entry_opt_pool_ranks[,cur_var[idx]], big.mark = ',')
-                entry_opt_pool_ranks[,cur_var[idx]] <- paste('$', entry_opt_pool_ranks[,cur_var[idx]], sep = '')
+            if(show_best == T){
+                disp_vars <- sort(unlist(display_idx[c('Players','Current Positions', 'Ties')]))
+                disp_vars <- c(display_idx$Keep, disp_vars)
+                entry_opt_pool_ranks <- entry_opt$new_pool_ranks
+                cur_var <- c('Total Money', 'Tie.1 Money', 'Player.1 Money', 'Player.2 Money',
+                             'Player.3 Money', 'Player.4 Money', 'Player.5 Money')
+                # Adjust Pool Rank Winnings to Currency Format
+                for(idx in seq_along(cur_var)){
+                    entry_opt_pool_ranks[,cur_var[idx]] <- prettyNum(entry_opt_pool_ranks[,cur_var[idx]], big.mark = ',')
+                    entry_opt_pool_ranks[,cur_var[idx]] <- paste('$', entry_opt_pool_ranks[,cur_var[idx]], sep = '')
+                }
+                return_t <- entry_opt_pool_ranks[, disp_vars]
+            }else{
+                return_t <- data.frame('message' = 'New entry, re-run best case.')
             }
-            entry_opt_pool_ranks <- entry_opt_pool_ranks[, disp_vars]
             },
             options = list(
                 autoWidth = F,
@@ -281,9 +302,12 @@ shinyServer(
         )
         # Render output text of new pool entry standing 
         output$o_new_entry_rank <- renderText({
+            input$i_entry
             entry_opt <- entry_opt()
-            paste('Best Entry Standing is: ', 
-                  as.character(entry_opt$new_entry_rank), sep = '') 
+            if(show_best == T){
+                paste('Best Entry Standing is: ', 
+                      as.character(entry_opt$new_entry_rank), sep = '')
+            }
         })
         
 # ##############################################################################
