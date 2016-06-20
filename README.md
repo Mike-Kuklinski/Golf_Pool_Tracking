@@ -14,7 +14,7 @@ performance and know which golfers to root for to maximize their standings in th
 Updates:    
 - Tournament Id and pool entry information now stored on Google Drive Account, from which the website will pull its information. This is in lieu of having a hard copy of the same information published with the website.  By storing all information on the Google Drive account, the website won't have to be re-published with new tournament information in the future. Instead, it can just be altered on the google drive.   
 - Added maintenance tab for authorized users. User can update the tournament information (id, purse amount, year, name), pool entries, payout percentages directly on the website. Changes made will automatically update the google drive account.  
-- Add Google analytics to track users and actions taken on the website.  
+- Added Google analytics to track users and actions taken on the website.  
 - Miscellaneous Bug fixes.   
 
 Shinyapp Website:
