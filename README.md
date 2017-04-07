@@ -18,4 +18,4 @@ Updates:
 - Miscellaneous Bug fixes.   
 
 Shinyapp Website:
-[Golf Pool Tracker](https://mike-kuklinski.shinyapps.io/Boomer_Pool/)
+[Golf Pool Tracker](https://mike-kuklinski.shinyapps.io/boomer_pool/)
